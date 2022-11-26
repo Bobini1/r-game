@@ -42,11 +42,11 @@ public class SongManager : MonoBehaviour
         return numOfNotes;
     }
 
-    public int getScorePercent()
+    public float getScorePercent()
     {
-        int playerScore = GetSongNotes();
-        int maxScore = GetComponent<ScoreManager>().getComboScore();
-        return (int)(playerScore / maxScore * 100.0F);
+        float maxScore = GetSongNotes();
+        float playerScore = GetComponent<ScoreManager>().getComboScore();
+        return (float)Math.Round(playerScore / maxScore * 100.0f, 2);
     }
 
     public bool IsFinished()
@@ -132,7 +132,7 @@ public class SongManager : MonoBehaviour
 
     private void FadeoutToResult()
     {
-        int score = getScorePercent();
+        float score = getScorePercent();
         GetComponent<SongResultFactory>().Create("Jew Chaos", score);
     }
 }
