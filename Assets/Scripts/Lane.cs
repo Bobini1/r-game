@@ -93,7 +93,7 @@ public class Lane : MonoBehaviour
             if (ShouldSpawnNote())
             {
                 System.Random rndNumber = new System.Random();
-                notePrefab = notePrefabs[rndNumber.Next(0, 8)];
+                notePrefab = notePrefabs[rndNumber.Next(0, 4)];
                 var note = Instantiate(notePrefab, transform);
                 notes.Add(note.GetComponent<Note>());
                 note.GetComponent<Note>().assignedTime = (float) timeStamps[spawnIndex];
