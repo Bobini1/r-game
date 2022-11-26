@@ -1327,6 +1327,7 @@ MonoBehaviour:
   songFadeoutInSeconds: 5
   marginOfError: 0.15
   inputDelayInMilliseconds: 0
+  resultScreen: {fileID: 5160265840016508931, guid: 03f303bdb3cf8834cbcc60918ac8411a, type: 3}
   fileLocation: we_made_a_chart_pog.mid
   noteTime: 1
   noteSpawnY: 7

@@ -17,11 +17,14 @@ public class SongManager : MonoBehaviour
 
     public int inputDelayInMilliseconds;
     
+    public GameObject resultScreen;
+    
 
     public string fileLocation;
     public float noteTime;
     public float noteSpawnY;
     public float noteTapY;
+    private bool showingResultScreen = false;
     public float noteDespawnY
     {
         get
@@ -32,7 +35,14 @@ public class SongManager : MonoBehaviour
     
     public bool IsFinished()
     {
-        return audioSource.time >= audioSource.clip.length;
+        foreach (var lane in lanes)
+        {
+            if (!lane.IsFinished())
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static MidiFile midiFile;
@@ -97,14 +107,15 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-        if (IsFinished())
+        if (!showingResultScreen && IsFinished())
         {
+            showingResultScreen = true;
             Invoke(nameof(FadeoutToResult), songFadeoutInSeconds);
         }
     }
 
     private void FadeoutToResult()
     {
-        
+        Instantiate(resultScreen, new Vector3(0, 0, 0), Quaternion.identity);
     }
 }
