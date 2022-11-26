@@ -9,11 +9,11 @@ public class Lane : MonoBehaviour
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input;
     public GameObject notePrefab;
-    List<Note> notes = new List<Note>();
-    public List<double> timeStamps = new List<double>();
+    List<Note> notes = new();
+    public List<double> timeStamps = new();
 
-    int spawnIndex = 0;
-    int inputIndex = 0;
+    int spawnIndex;
+    int inputIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -34,17 +34,13 @@ public class Lane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (spawnIndex < timeStamps.Count)
-        {
-            if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
-            {
-                var note = Instantiate(notePrefab, transform);
-                notes.Add(note.GetComponent<Note>());
-                note.GetComponent<Note>().assignedTime = (float)timeStamps[spawnIndex];
-                spawnIndex++;
-            }
-        }
+        AddNewNotes();
 
+        JudgeHits();
+    }
+
+    private void JudgeHits()
+    {
         if (inputIndex < timeStamps.Count)
         {
             double timeStamp = timeStamps[inputIndex];
@@ -65,15 +61,30 @@ public class Lane : MonoBehaviour
                     print($"Hit inaccurate on {inputIndex} note with {Math.Abs(audioTime - timeStamp)} delay");
                 }
             }
+
             if (timeStamp + marginOfError <= audioTime)
             {
                 Miss();
                 print($"Missed {inputIndex} note");
                 inputIndex++;
             }
-        }       
-    
+        }
     }
+
+    private void AddNewNotes()
+    {
+        if (spawnIndex < timeStamps.Count)
+        {
+            if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
+            {
+                var note = Instantiate(notePrefab, transform);
+                notes.Add(note.GetComponent<Note>());
+                note.GetComponent<Note>().assignedTime = (float) timeStamps[spawnIndex];
+                spawnIndex++;
+            }
+        }
+    }
+
     private void Hit()
     {
         ScoreManager.Hit();
