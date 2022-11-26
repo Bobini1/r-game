@@ -17,7 +17,6 @@ public class SongManager : MonoBehaviour
 
     public int inputDelayInMilliseconds;
     
-    public GameObject resultScreen;
     
 
     public string fileLocation;
@@ -116,6 +115,6 @@ public class SongManager : MonoBehaviour
 
     private void FadeoutToResult()
     {
-        Instantiate(resultScreen, new Vector3(0, 0, 0), Quaternion.identity);
+        GetComponent<SongResultFactory>().Create("Jew Chaos", 99);
     }
 }
