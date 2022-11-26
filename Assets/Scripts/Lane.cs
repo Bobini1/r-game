@@ -58,7 +58,7 @@ public class Lane : MonoBehaviour
 
             if (Input.GetKeyDown(input))
             {
-                if (Math.Abs(audioTime - timeStamp) < marginOfError)
+                if (Math.Abs(audioTime - timeStamp) <= marginOfError)
                 {
                     Hit();
                     print($"Hit on {inputIndex} note");
@@ -68,9 +68,10 @@ public class Lane : MonoBehaviour
                 else
                 {
                     print($"Hit inaccurate on {inputIndex} note with {Math.Abs(audioTime - timeStamp)} delay");
+                    Miss();
                 }
             }
-
+            
             if (timeStamp + marginOfError <= audioTime)
             {
                 Miss();
