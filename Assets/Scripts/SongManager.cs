@@ -32,19 +32,19 @@ public class SongManager : MonoBehaviour
         }
     }
     
-    public int getSongNotes()
+    public int GetSongNotes()
     {
         int numOfNotes = 0;
         foreach (var lane in lanes)
         {
-            numOfNotes += GetComponent<Lane>().getLaneNotes();
+            numOfNotes += lane.getLaneNotes();
         }
         return numOfNotes;
     }
 
     public int getScorePercent()
     {
-        int playerScore = getSongNotes();
+        int playerScore = GetSongNotes();
         int maxScore = GetComponent<ScoreManager>().getComboScore();
         return (int)(playerScore / maxScore * 100);
     }
