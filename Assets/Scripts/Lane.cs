@@ -8,7 +8,7 @@ public class Lane : MonoBehaviour
 {
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input;
-    public GameObject[] notePrefabs = new GameObject[4];
+    public GameObject[] notePrefabs = new GameObject[8];
     public GameObject notePrefab;
     List<Note> notes = new();
     public List<double> timeStamps = new();
@@ -87,7 +87,8 @@ public class Lane : MonoBehaviour
             if (ShouldSpawnNote())
             {
                 System.Random rndNumber = new System.Random();
-                var note = Instantiate(notePrefabs[rndNumber.Next(0, 4)], transform);
+                notePrefab = notePrefabs[rndNumber.Next(0, 8)];
+                var note = Instantiate(notePrefab, transform);
                 notes.Add(note.GetComponent<Note>());
                 note.GetComponent<Note>().assignedTime = (float) timeStamps[spawnIndex];
                 spawnIndex++;
