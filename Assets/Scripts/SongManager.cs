@@ -37,7 +37,7 @@ public class SongManager : MonoBehaviour
         int numOfNotes = 0;
         foreach (var lane in lanes)
         {
-            numOfNotes++;
+            numOfNotes += GetComponent<Lane>().getLaneNotes();
         }
         return numOfNotes;
     }
