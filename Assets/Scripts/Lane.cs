@@ -83,7 +83,7 @@ public class Lane : MonoBehaviour
     {
         if (!IsFinished())
         {
-            if (songManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - songManager.noteTime)
+            if (ShouldSpawnNote())
             {
                 var note = Instantiate(notePrefab, transform);
                 notes.Add(note.GetComponent<Note>());
@@ -91,6 +91,11 @@ public class Lane : MonoBehaviour
                 spawnIndex++;
             }
         }
+    }
+
+    private bool ShouldSpawnNote()
+    {
+        return spawnIndex < timeStamps.Count && songManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - songManager.noteTime;
     }
 
     private void Hit()
