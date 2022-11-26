@@ -32,6 +32,23 @@ public class SongManager : MonoBehaviour
         }
     }
     
+    public int getSongNotes()
+    {
+        int numOfNotes = 0;
+        foreach (var lane in lanes)
+        {
+            numOfNotes++;
+        }
+        return numOfNotes;
+    }
+
+    public int getScorePercent()
+    {
+        int playerScore = getSongNotes();
+        int maxScore = GetComponent<ScoreManager>().getComboScore();
+        return (int)(playerScore / maxScore * 100);
+    }
+
     public bool IsFinished()
     {
         foreach (var lane in lanes)
@@ -115,6 +132,7 @@ public class SongManager : MonoBehaviour
 
     private void FadeoutToResult()
     {
-        GetComponent<SongResultFactory>().Create("Jew Chaos", 99);
+        int score = getScorePercent();
+        GetComponent<SongResultFactory>().Create("Jew Chaos", score);
     }
 }

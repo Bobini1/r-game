@@ -29,4 +29,9 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = comboScore.ToString();
     }
+
+    public int getComboScore()
+    {
+        return comboScore;
+    }
 }

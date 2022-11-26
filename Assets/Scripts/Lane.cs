@@ -48,6 +48,11 @@ public class Lane : MonoBehaviour
         return inputIndex >= timeStamps.Count;
     }
 
+    public int getLaneNotes()
+    {
+        return timeStamps.Count;
+    }
+
     private void JudgeHits()
     {
         if (!IsFinished())
