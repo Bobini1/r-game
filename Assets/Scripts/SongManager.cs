@@ -46,7 +46,7 @@ public class SongManager : MonoBehaviour
     {
         int playerScore = GetSongNotes();
         int maxScore = GetComponent<ScoreManager>().getComboScore();
-        return (int)(playerScore / maxScore * 100);
+        return (int)(playerScore / maxScore * 100.0F);
     }
 
     public bool IsFinished()

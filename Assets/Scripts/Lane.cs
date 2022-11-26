@@ -22,7 +22,7 @@ public class Lane : MonoBehaviour
     void Start()
     {
         songManager = GameObject.Find("SongManager").GetComponent<SongManager>();
-        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager = GameObject.Find("SongManager").GetComponent<ScoreManager>();
     }
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
     {
@@ -75,6 +75,7 @@ public class Lane : MonoBehaviour
                     print($"Hit inaccurate on {inputIndex} note with {Math.Abs(audioTime - timeStamp)} delay");
                     Miss();
                 }
+
             }
             
             if (timeStamp + marginOfError <= audioTime)

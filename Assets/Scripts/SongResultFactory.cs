@@ -14,7 +14,7 @@ public class SongResultFactory : MonoBehaviour
         var songTitle = newResultScreen.transform.Find("SongTitle").GetComponent<TextMeshProUGUI>();
         var songScore = newResultScreen.transform.Find("Score").GetComponent<TextMeshProUGUI>();
         songTitle.text = title;
-        songScore.text = score.ToString(CultureInfo.InvariantCulture);
+        songScore.text = score.ToString(CultureInfo.InvariantCulture) + "%";
         return newResultScreen; 
     }
 }
