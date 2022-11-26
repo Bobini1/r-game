@@ -123,27 +123,115 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1117344664
+--- !u!1 &733659916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733659919}
+  - component: {fileID: 733659918}
+  - component: {fileID: 733659917}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &733659917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733659916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &733659918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733659916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &733659919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733659916}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1536055866
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: endY
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: maxZoom
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: endY
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: maxZoom
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
       value: 'Sed ut perspiciatis unde omnis.
 
-        Pole'
+        German'
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -154,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_AnchorMax.x
@@ -228,21 +316,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
       value: Letter
       objectReference: {fileID: 0}
-    - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: This is so deep...
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
