@@ -11,6 +11,8 @@ public class Lane : MonoBehaviour
     public GameObject notePrefab;
     List<Note> notes = new();
     public List<double> timeStamps = new();
+    public SongManager songManager;
+    public ScoreManager scoreManager;
 
     int spawnIndex;
     int inputIndex;
@@ -18,7 +20,8 @@ public class Lane : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        songManager = GameObject.Find("SongManager").GetComponent<SongManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
     {
@@ -38,14 +41,19 @@ public class Lane : MonoBehaviour
 
         JudgeHits();
     }
+    
+    public bool IsFinished()
+    {
+        return inputIndex >= timeStamps.Count;
+    }
 
     private void JudgeHits()
     {
-        if (inputIndex < timeStamps.Count)
+        if (!IsFinished())
         {
             double timeStamp = timeStamps[inputIndex];
-            double marginOfError = SongManager.Instance.marginOfError;
-            double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
+            double marginOfError = songManager.marginOfError;
+            double audioTime = songManager.GetAudioSourceTime() - (songManager.inputDelayInMilliseconds / 1000.0);
 
             if (Input.GetKeyDown(input))
             {
@@ -73,9 +81,9 @@ public class Lane : MonoBehaviour
 
     private void AddNewNotes()
     {
-        if (spawnIndex < timeStamps.Count)
+        if (!IsFinished())
         {
-            if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
+            if (songManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - songManager.noteTime)
             {
                 var note = Instantiate(notePrefab, transform);
                 notes.Add(note.GetComponent<Note>());
@@ -87,10 +95,10 @@ public class Lane : MonoBehaviour
 
     private void Hit()
     {
-        ScoreManager.Hit();
+        scoreManager.Hit();
     }
     private void Miss()
     {
-        ScoreManager.Miss();
+        scoreManager.Miss();
     }
 }

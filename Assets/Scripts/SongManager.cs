@@ -9,10 +9,10 @@ using System;
 
 public class SongManager : MonoBehaviour
 {
-    public static SongManager Instance;
     public AudioSource audioSource;
     public Lane[] lanes;
     public float songDelayInSeconds;
+    public float songFadeoutInSeconds;
     public double marginOfError; // in seconds
 
     public int inputDelayInMilliseconds;
@@ -29,12 +29,16 @@ public class SongManager : MonoBehaviour
             return noteTapY - (noteSpawnY - noteTapY);
         }
     }
+    
+    public bool IsFinished()
+    {
+        return audioSource.time >= audioSource.clip.length;
+    }
 
     public static MidiFile midiFile;
     // Start is called before the first frame update
     void Start()
     {
-        Instance = this;
         if (Application.streamingAssetsPath.StartsWith("http://") || Application.streamingAssetsPath.StartsWith("https://"))
         {
             StartCoroutine(ReadFromWebsite());
@@ -86,12 +90,20 @@ public class SongManager : MonoBehaviour
     {
         audioSource.Play();
     }
-    public static double GetAudioSourceTime()
+    public double GetAudioSourceTime()
     {
-        return (double)Instance.audioSource.timeSamples / Instance.audioSource.clip.frequency;
+        return (double)audioSource.timeSamples / audioSource.clip.frequency;
     }
 
     void Update()
+    {
+        if (IsFinished())
+        {
+            Invoke(nameof(FadeoutToResult), songFadeoutInSeconds);
+        }
+    }
+
+    private void FadeoutToResult()
     {
         
     }
