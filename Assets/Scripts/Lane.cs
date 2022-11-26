@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Lane : MonoBehaviour
 {
@@ -14,7 +15,6 @@ public class Lane : MonoBehaviour
     public List<double> timeStamps = new();
     public SongManager songManager;
     public ScoreManager scoreManager;
-
     int spawnIndex;
     int inputIndex;
 
@@ -39,7 +39,6 @@ public class Lane : MonoBehaviour
     void Update()
     {
         AddNewNotes();
-
         JudgeHits();
     }
     
@@ -51,6 +50,11 @@ public class Lane : MonoBehaviour
     public int getLaneNotes()
     {
         return timeStamps.Count;
+    }
+
+    IEnumerator Wait(float time)
+    {
+        yield return new WaitForSeconds(time);
     }
 
     private void JudgeHits()
@@ -66,9 +70,11 @@ public class Lane : MonoBehaviour
                 if (Math.Abs(audioTime - timeStamp) <= marginOfError)
                 {
                     Hit();
+                    GameObject.Find("Panel").GetComponent<Glow>().DoGlow();
                     print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
+                    
                 }
                 else
                 {
