@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Jew'
+      value: "Z powa\u017Caniem dydaktyk Jakub Sofer\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -107,16 +105,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Jew
+      value: Letter Jew 2
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Z powa\u017Caniem do Ilyii Ivanovicha,\r\nRozpoczynaj\u0105c chcia\u0142bym
+        nakre\u015Bli\u0107, \u017Ce tematem rozmowy b\u0119dzie Twoje podej\u015Bcie
+        do sprawy. Nie chc\u0119 \u017Ceby kwestie pogl\u0105dowe zamaza\u0142y nasz
+        wsp\xF3lny wk\u0142ad jednak czuj\u0119, \u017Ce wykazujesz si\u0119 znieczuleniem
+        wobec sytuacji wyedukowanych osobisto\u015Bci i jest to co\u015B czego mimo
+        wielkiej mojej cierpliwo\u015Bci przebole\u0107 nie jestem zdolny. Zmagam
+        si\u0119 z sytuacj\u0105 bezsilno\u015Bci, w kt\xF3rej posp\xF3lstwo \u015Bmie
+        sprzeciwia\u0107 si\u0119 roli inteligencji w spo\u0142ecze\u0144stwie i
+        wyniku tego cofa wsp\xF3ln\u0105 inicjatyw\u0119 w g\u0142\u0119bokie czelu\u015Bci
+        przesz\u0142o\u015Bci zakryte reakcjonisytczn\u0105 my\u015Bl\u0105. Zastan\xF3w
+        si\u0119 dobrze co kryje przysz\u0142o\u015B\u0107, gdy zmieszasz j\u0105
+        z b\u0142\u0119dami przesz\u0142o\u015B\u0107. Bez ludzi, kt\xF3rzy s\u0105
+        zdolni spami\u0119ta\u0107 i zanalizowa\u0107 stare dziej\u0119 jeste\u015Bmy
+        skazani na powt\xF3rzenie wielkich kl\u0119sk i katastrof.\r\nW miar\u0119
+        jak zastanawiasz nad swymi pogl\u0105dami zerknij r\xF3wnie\u017C na ten
+        oto fragment symfonii, mo\u017Ce chocia\u017C ona przem\xF3wi do ciebie subtelno\u015Bci\u0105
+        my\u015Bli i pogl\u0105du.\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 

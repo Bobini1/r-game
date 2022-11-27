@@ -29,9 +29,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        German'
+      value: "Z powo\u0142ania dworu kr\xF3lewskiego Wilhelma Pierwszego, pokorny
+        urz\u0119dnik Wilfred Hosenfeld\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -127,15 +126,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter German
+      value: Letter German 3
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: This is so deep...
+      value: "Szanowna Administracjo Prowincjonalna\r\nWobec ostatniego obrotu spraw
+        wnioskuje na bazie d\u0105\u017Cenia do dobrobytu pa\u0144stwowego i ich
+        obywateli jak i rezydent\xF3w oraz zapewnienia d\u0142ugotrwa\u0142ej stabilno\u015Bci
+        regionu w kwestiach politycznych specyficznych do natury regionu wnioskuj\u0119,
+        o poparcie przez Wasz\u0105 ekscelencj\u0119 nast\u0119puj\u0105cego skierowanego
+        do Administracji wniosku.\r\nWnioskuj\u0119 o zapewnienie obywatelom, zar\xF3wno
+        pe\u0142noprawnym jak i z ograniczonymi przywilejami i przebywaj\u0105cych
+        w granicach na prawie udzielonej rezydencji prawa do wyra\u017Cenia wolnej
+        opinii w tematach dotycz\u0105cych ich to\u017Csamo\u015Bci narodowej.\r\nPodkre\u015Blam
+        jednocze\u015Bnie \u017Ce \xF3w wniosek jest warunkowany tylko i wy\u0142\u0105cznie
+        dobrem domeny wielmo\u017Cnego kr\xF3la Wilhelma i jego poddanych.\r\nW wyrazie
+        szacunku, podziwu i wierno\u015Bci naszemu kr\xF3lowi Wilhelmowi, zamieszczam
+        poni\u017Cej fragment dzie\u0142a powsta\u0142ego ze stara\u0144 kultur czterech
+        \u0141\xF3dzkich, co by poprzez symfoni\u0119 nasz\u0105 zademonstrowa\u0107
+        efekty wsp\xF3\u0142pracy.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset

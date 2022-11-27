@@ -29,9 +29,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        German'
+      value: "Z powo\u0142ania dworu kr\xF3lewskiego a mniej z ch\u0119ci ducha,
+        pokorny urz\u0119dnik Wilfred Hosenfeld\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -127,15 +126,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter German
+      value: Letter German 2
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: This is so deep...
+      value: "Do Walentego,\r\nPrzez te wszystkie lata tyle \u017Cech stara\u0144
+        do\u0142o\u017Cy\u0142 do dobrobytu tego miasta jednak ty i tak post\u0105pi\u0142e\u015B
+        wedle w\u0142asnej racji. Wiem, \u017Ce akcje moje nie by\u0142y tak samo
+        do ko\u0144ca uzasadnione, jednak posuni\u0119cie si\u0119 do popierania
+        rozlewu krwi uwa\u017Cam za istne szale\u0144stwo, groz\u0119 i horror, zbrodni\u0119
+        wobec ludzko\u015Bci i ledwo trzymaj\u0105cego si\u0119 pokoju. Szanuj\u0119
+        twoje powo\u0142anie i twoje intencj\u0119, ale proch i kule nigdy nie obal\u0105
+        tego systemu, a mo\u017Ce nawet wzmocni\u0105 go, gdy ostatnie szcz\u0105tki
+        polsko\u015Bci po\u0142o\u017C\u0105 swe \u017Cycia na przedmiejskich barykadach.
+        Jednak nawet w obliczu wszystkich tych wydarze\u0144 nie mam zamiaru skierowywa\u0107
+        si\u0142y prawa w twoj\u0105 stron\u0119,\r\nMo\u017Ce i straci\u0142em zaufanie
+        do naszej sprawy, ale w symfoni\u0119 wci\u0105\u017C ufam, i dlatego prosz\u0119
+        muzyczn\u0105 Ciebie cz\u0119\u015B\u0107 o jej wys\u0142uchanie:\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset

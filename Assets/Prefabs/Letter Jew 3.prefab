@@ -9,9 +9,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Jew'
+      value: "I cho\u0107by by\u0142y to me ostatnie zapiski, wierz\u0119 w przysz\u0142o\u015B\u0107
+        wasz\u0105, dydaktyk Jakub Sofer\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -107,7 +106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -117,6 +116,29 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Ludy \u0141odzi i okolic!\r\nPrzemawiam do was z g\u0142\u0119bi mego
+        serca i umys\u0142u w sprawie ka\u017Cdego mieszka\u0144ca okolic, regionu,
+        kraju, kontynentu. Pytam was, moi s\u0142uchacze, czym\u017Ce jest najzdolniejszy
+        cz\u0142owiek, je\u017Celi ca\u0142e \u017Cycie b\u0142\u0105dzi w ciemno\u015Bciach
+        braku \u015Bwiadomo\u015Bci? Nawet najwi\u0119ksze umiej\u0119tno\u015Bci
+        wymagaj\u0105 wiedzy, coby mog\u0142y by\u0107 u\u017Cyte zgodnie. Wobec
+        tego nawet na poz\xF3r ma\u0142o uzdolniony indywidua\u0142, a taki kt\xF3ry
+        posiad\u0142 \u015Bwiadomo\u015B\u0107 swego otoczenia wykazuje wi\u0119kszy
+        potencja\u0142 ni\u017C kto\u015B znacznie bardziej u\u017Cyteczny, kt\xF3ry
+        to jednak swego czynu przez brak wiedzy u\u017Cy\u0107 nie zdo\u0142a. Apeluj\u0119
+        wi\u0119c do was, aby\u015Bcie docenili przysz\u0142o\u015Bciowo\u015B\u0107
+        edukacji, podtrzymywania \u015Bwiadomo\u015Bci narodowej, oraz odr\u0119bno\u015Bci,
+        a zarazem zgodno\u015Bci pomi\u0119dzy wszelakimi kulturami zamieszkaj\u0105cymi
+        nasz\u0105 ukochan\u0105 okolic\u0119. Ostatnimi czasy spotka\u0142a mnie
+        jeno represja, prze\u015Bladowania i inne terrory, ale nie ustan\u0119. en
+        oto apel dla dobra ludu rozwiesz\u0119 na ka\u017Cdym drzewie, znaku i domu
+        jaki wzrok m\xF3j si\u0119gnie. Wiem, \u017Ce przekaz ten jest pewno mym
+        ostatnim, dlatego zostawiam wam, moim przyjacio\u0142om, s\u0105siadom, mieszka\u0144com
+        ukochanej okolicy co\u015B co najbardziej dla mnie teraz wartne, ostatni
+        z obiecanych przez mnie fragment\xF3w symfonii czterech.\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
