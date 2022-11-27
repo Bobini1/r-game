@@ -54,11 +54,6 @@ public class Lane : MonoBehaviour
         return timeStamps.Count;
     }
 
-    IEnumerator Wait(float time)
-    {
-        yield return new WaitForSeconds(time);
-    }
-
     private void JudgeHits()
     {
         if (!IsFinished())
@@ -72,7 +67,7 @@ public class Lane : MonoBehaviour
                 if (Math.Abs(audioTime - timeStamp) <= marginOfError)
                 {
                     Hit();
-                    GameObject.Find("Panel").GetComponent<Glow>().DoGlow();
+                    GameObject.Find("GlowEffect").GetComponent<Glow>().DoGlow();
                     print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
@@ -109,6 +104,10 @@ public class Lane : MonoBehaviour
                 spawnIndex++;
             }
         }
+        //else   // get last time stamp
+        //{
+            //GameObject.Find("SongManager").GetComponent<ScoreManager>().maxTimeStamps.Add((float)timeStamps[spawnIndex-1]);
+        //}
     }
 
     private bool ShouldSpawnNote()

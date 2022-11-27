@@ -10,10 +10,11 @@ public class ScoreManager : MonoBehaviour
     int comboScore;
     int maxScore;
     int failCounter = 0;
+    public List<float> maxTimeStamps = new();
 
 
     public GameObject progressBar;
-    float progressBarValue;
+    //float progressBarValue;
     float progressBarMaxValue;
 
     SongManager songManager;
@@ -24,7 +25,7 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         comboScore = 0;
-        progressBarValue = 0;
+        //progressBarValue = 0;
         if(songManager != null)
         {
             progressBarMaxValue = songManager.GetSongNotes();
@@ -62,8 +63,9 @@ public class ScoreManager : MonoBehaviour
     private void Update()
     {
         scoreText.text = comboScore.ToString();
-        float speed = 1f;
-        speed = progressBarMaxValue /360; //Check whether it works for other tracks!!!!
+        //float speed = 1f;
+        float speed = (progressBarMaxValue / 360f)*1.2f; //Check whether it works for other tracks!!!!
+        //float speed = GameObject.Find("SongManager").GetComponent<SongManager>().GetSongNotes() / MaxTimeStamp();
         
         //max X -18.5 - Final X 0
         if(progressBar.transform.position.x <= 0)
@@ -75,5 +77,15 @@ public class ScoreManager : MonoBehaviour
     public int getComboScore()
     {
         return comboScore;
+    }
+
+    public float MaxTimeStamp()
+    {
+        float maxStamp = 0f;
+        foreach (float stamp in maxTimeStamps)
+        {
+            maxStamp = System.Math.Max(maxStamp, stamp);
+        }
+        return maxStamp;
     }
 }

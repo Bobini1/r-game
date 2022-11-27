@@ -7,16 +7,21 @@ using UnityEngine.EventSystems;
 public class Glow : MonoBehaviour
 {
 
-    public UnityEngine.UI.Image image;
+    public SpriteRenderer image;
+
     // Start is called before the first frame update
     void Start()
     {
-        image = GetComponent<UnityEngine.UI.Image>();
+        if (image == null)
+        {
+            image = GetComponent<SpriteRenderer>();
+        }
+        image.color = new Color32(255, 255, 255, 0); ;
     }
 
     public void DoGlow()
     {
-        image.color = new Color32(255, 255, 225, 40);
+        image.color = new Color32(255, 255, 255, 65);
         Invoke("StopGlow", 0.2f);
     }
 

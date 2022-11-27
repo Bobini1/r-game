@@ -25,7 +25,7 @@ public class SongManager : MonoBehaviour
     public float noteTapY;
     private bool showingResultScreen = false;
 
-    private bool failCondition = false;
+    //private bool failCondition = false;
 
     public bool resultScreenShown = false;
 
@@ -67,7 +67,9 @@ public class SongManager : MonoBehaviour
     }
 
     public static MidiFile midiFile;
+
     // Start is called before the first frame update
+    [Obsolete]
     void Start()
     {
         if (Application.streamingAssetsPath.StartsWith("http://") || Application.streamingAssetsPath.StartsWith("https://"))
@@ -80,6 +82,7 @@ public class SongManager : MonoBehaviour
         }
     }
 
+    [Obsolete]
     private IEnumerator ReadFromWebsite()
     {
         using (UnityWebRequest www = UnityWebRequest.Get(Application.streamingAssetsPath + "/" + fileLocation))
