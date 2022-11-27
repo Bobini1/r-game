@@ -456,7 +456,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7613100146443364460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,8 +1205,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6456206283424711773, guid: e9dff3484ce809f47a63541a0703e097, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 5430780970702318393}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9dff3484ce809f47a63541a0703e097, type: 3}
+--- !u!114 &5430780970702318393 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3578483563256871215, guid: e9dff3484ce809f47a63541a0703e097, type: 3}
+  m_PrefabInstance: {fileID: 8860640211581162006}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &6466758694713020358 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2542804904525667792, guid: e9dff3484ce809f47a63541a0703e097, type: 3}
