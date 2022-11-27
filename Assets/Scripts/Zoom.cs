@@ -73,7 +73,7 @@ public class Zoom : MonoBehaviour
             cam.orthographicSize = newSize;
             currentZoom = newSize;
         }
-        if (Math.Abs(currentZoom - maxZoom) < 0.001)
+        if (Math.Abs(currentZoom - maxZoom) < 0.01)
         {
             zoomComplete.Invoke();
         }
