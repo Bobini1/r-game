@@ -1770,6 +1770,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: JS Crisis
   inputDelayInMilliseconds: 0
   fileLocation: jew3.mid
   noteTime: 1

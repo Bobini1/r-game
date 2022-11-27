@@ -1854,6 +1854,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: JS Chaos
   inputDelayInMilliseconds: 0
   fileLocation: jew2.mid
   noteTime: 1

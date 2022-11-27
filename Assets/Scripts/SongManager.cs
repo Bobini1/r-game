@@ -14,6 +14,7 @@ public class SongManager : MonoBehaviour
     public float songDelayInSeconds;
     public float songFadeoutInSeconds;
     public double marginOfError; // in seconds
+    public string name;
 
     public int inputDelayInMilliseconds;
     
@@ -141,7 +142,7 @@ public class SongManager : MonoBehaviour
     public void FadeoutToResult()
     {
         float score = getScorePercent();
-        GetComponent<SongResultFactory>().Create("Jew Chaos", score);
+        GetComponent<SongResultFactory>().Create(name, score);
         audioSource.volume = 0;
     }
 }
