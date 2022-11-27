@@ -17,7 +17,7 @@ public class OnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             image = GetComponent<UnityEngine.UI.Image>();
         }
-        //initialColor = image.color;
+        initialColor = image.color;
         image.color = Color.clear;
     }
 
