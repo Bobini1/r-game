@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Zoom : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Zoom : MonoBehaviour
     private float currentZoom;
     private float stepsForFullZoom;
     private bool _zooming;
+    public UnityEvent zoomComplete;
     public bool Zooming {
         get { return _zooming; }
         private set
@@ -70,6 +72,10 @@ public class Zoom : MonoBehaviour
         {
             cam.orthographicSize = newSize;
             currentZoom = newSize;
+        }
+        if (Math.Abs(currentZoom - maxZoom) < 0.001)
+        {
+            zoomComplete.Invoke();
         }
     }
 
