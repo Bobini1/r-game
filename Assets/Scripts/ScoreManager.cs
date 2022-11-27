@@ -17,6 +17,9 @@ public class ScoreManager : MonoBehaviour
     //float progressBarValue;
     float progressBarMaxValue;
 
+    public float speedAdjuster;
+    public AudioSource audioSource;
+
     SongManager songManager;
     private void Awake()
     {
@@ -63,14 +66,18 @@ public class ScoreManager : MonoBehaviour
     private void Update()
     {
         scoreText.text = comboScore.ToString();
-        //float speed = 1f;
-        float speed = (progressBarMaxValue / 360f)*1.2f; //Check whether it works for other tracks!!!!
+        //set me
+
         //float speed = GameObject.Find("SongManager").GetComponent<SongManager>().GetSongNotes() / MaxTimeStamp();
-        
-        //max X -18.5 - Final X 0
-        if(progressBar.transform.position.x <= 0)
+        //audioSource.GetComponent<AudioClip>().length();
+        //max X -17.8 - Final X 0
+        float Xprop = (17.8f / audioSource.clip.length);
+        speedAdjuster = Mathf.Abs(Xprop);
+        //float speed = (progressBarMaxValue / 360f) * speedAdjuster; //Check whether it works for other tracks!!!!
+
+        if (progressBar.transform.position.x <= 0)
         {
-            progressBar.transform.position += new Vector3(1, 0) * Time.deltaTime * speed;
+            progressBar.transform.position += new Vector3(1, 0) * Time.deltaTime * speedAdjuster;
         }
     }
 
