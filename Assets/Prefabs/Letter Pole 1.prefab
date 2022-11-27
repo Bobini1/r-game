@@ -17,9 +17,8 @@ PrefabInstance:
       objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Pole'
+      value: "Nie zapomn\u0119, o ani jednym zak\u0105tku mej ziemi,\r\nbom wsz\u0119dzie
+        cz\u0105stk\u0119 mej duszy zostawi\u0142,\r\nWalenty D\u0105browski\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -29,6 +28,14 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250.9
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -115,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -125,6 +132,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Illya, Bracie\r\n\r\nJak\u017Ce mi\u0142o pisa\u0107 mi znowu do mego
+        brata, cho\u0107 krwi\u0105 r\xF3\u017Cnego, ide\u0105 jednego. Cz\u0119sto
+        wracam my\u015Blami do naszej ostatniej rozmowy, w kt\xF3rej stwierdzi\u0142e\u015B,
+        i\u017C konieczno\u015Bci\u0105, i obowi\u0105zkiem ka\u017Cdego cz\u0142owieka
+        rozwija\u0107 si\u0119, poprzez trosk\u0119 o w\u0142asne dobro, troszczy\u0107
+        si\u0119 o dobro og\xF3\u0142u. Czuj\u0119 si\u0119 wi\u0119c, rzecz mo\u017Cna
+        stwierdzi\u0107 zobligowany, pod\u0105\u017Cy\u0107 wraz z reszt\u0105 moich
+        rodak\xF3w w styczniowej nadziei, na odzyskanie tego, o czym wszyscy razem
+        marzymy. Zainspirowany Twoim przyk\u0142adem, wyruszam w drog\u0119,  wyruszam
+        jednak, naprzeciw przeznaczeniu, nie cofam si\u0119. W tak w\u0142a\u015Bnie
+        chcia\u0142bym zosta\u0107 zapami\u0119tany. Gdybym mia\u0142 ju\u017C nie
+        wr\xF3ci\u0107, poni\u017Cej przesy\u0142am m\xF3j ostatni fragment, z kt\xF3rym
+        wyruszam w podr\xF3\u017C, albowiem mam zamiar umiera\u0107, z muzyk\u0105
+        i pie\u015Bni\u0105 w sercu.\r\nI cho\u0107 wiem, \u017Ce nie podzielasz
+        mojej wiary, w s\u0142uszno\u015B\u0107 spraw wielkich takich jak ta, ufam,
+        \u017Ce ze wzgl\u0119du na nasz\u0105 przyja\u017A\u0144 przeka\u017Cesz,
+        nie pozwolisz, by moja ostatnia melodia mia\u0142a  zamilkn\u0105\u0107.\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 

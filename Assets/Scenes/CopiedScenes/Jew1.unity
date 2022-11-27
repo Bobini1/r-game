@@ -1770,6 +1770,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: JS Prologue
   inputDelayInMilliseconds: 0
   fileLocation: jew1.mid
   noteTime: 1

@@ -1770,6 +1770,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: WD Battle
   inputDelayInMilliseconds: 0
   fileLocation: pol3.mid
   noteTime: 1

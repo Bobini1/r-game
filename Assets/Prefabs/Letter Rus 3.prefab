@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Russian'
+      value: "Po raz ju\u017C ostatni"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -21,6 +19,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -8025722609524864134, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -274
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -107,20 +109,61 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Rus
+      value: Letter Rus 3
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 94eb10150fd466a4087d74e861e5b93f, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Illya Ivanovich, Ostatnia Wola\r\nI tym sposobem, m\xF3j ostatni dzie\u0144
+        nasta\u0142. Skazany jako rosyjski dezerter, nie mam jednak zamiaru umiera\u0107
+        jako dezerter umiera\u0107, a umiera\u0107 tak jak \u017Cy\u0142em, b\u0119d\u0105c
+        artyst\u0105. Wi\u0119kszo\u015B\u0107 znamienitych m\u0119\u017C\xF3w, na
+        moim miejscu wyzna\u0142aby, \u017Ce \u017Ca\u0142uje, pope\u0142nionych
+        win i marzy o innym ko\u0144cu, ja jednak tego nie stwierdzam. Jedyn\u0105,
+        z moich win jest to, \u017Ce nie by\u0142em w stanie, zjednoczy\u0107 si\u0119
+        z mymi kamradami, i nie uko\u0144czyli\u015Bmy symfonii czterech, cho\u0107
+        mam nadziej\u0119, \u017Ce nasze melodie kiedy\u015B jeszcze zostan\u0105
+        zagrane, mo\u017Ce w innych okoliczno\u015Bciach. Pomimo dramatycznego ko\u0144ca,
+        by\u0142em w moim \u017Cyciu szcz\u0119\u015Bliwy. Ostatnie par\u0119 lat
+        mojego sp\u0119dzonych w  \u0141odzi, r\xF3wnie\u017C takie by\u0142o. Chocia\u017C
+        miasto dopiero teraz naprawd\u0119 rozwija skrzyd\u0142a, to wierz\u0119,
+        \u017Ce przysz\u0142o\u015Bci b\u0119dzie w stanie rozkwitn\u0105\u0107,
+        dzi\u0119ki pasji i pracy ludzi. Dobrych ludzi. Chcia\u0142bym m\xF3c to
+        zobaczy\u0107, jest to jednak pie\u015B\u0144 przysz\u0142ych pokole\u0144.
+        Niech wi\u0119c przysz\u0142e pokolenia \u015Bpiewaj\u0105 t\u0119 pie\u015B\u0144,
+        a ja, za\u015Bpiewam m\xF3j poleci m\xF3j finalny, ostatni utw\xF3r. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSize
+      value: 10.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.x
+      value: -29.945663
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.y
+      value: -7.046051
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.z
+      value: -28.184174
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10.52
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 

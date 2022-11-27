@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Privet! \r\n\r\nIllya Ivanovich"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -131,13 +131,29 @@ PrefabInstance:
         czw\xF3rk\u0119,  stworzymy co\u015B razem. Wiem \u017Ce nasze style bywaj\u0105
         r\xF3\u017Cne, lecz mam nadziej\u0119, \u017Ce pomimo wszystko b\u0119dziemy
         w stanie razem to przezwyci\u0119\u017Cy\u0107, tak jak zawsze to robili\u015Bmy.
-        Nie mog\u0119 si\u0119 doczeka\u0107, by dzia\u0142a\u0107 razem.\r\n\r\nPoni\u017Cej
+        Nie mog\u0119 si\u0119 doczeka\u0107, by dzia\u0142a\u0107 razem.\r\nPoni\u017Cej
         za\u0142\u0105czam szkic, jednej z melodii o kt\xF3rych ostatnio my\u015Bla\u0142em."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSize
+      value: 9.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.w
+      value: -67.617615
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.y
+      value: -10.938179
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 9.59
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 

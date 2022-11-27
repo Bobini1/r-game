@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Russian'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -107,20 +105,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Rus
+      value: Letter Rus 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 94eb10150fd466a4087d74e861e5b93f, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Walenty\r\nMoje \u017Cycie w tym mie\u015Bcie zaczyna nabiera\u0107
+        rumie\u0144c\xF3w. Cho\u0107 bywa\u0142em ju\u017C na wsi, bywa\u0142em w 
+        mie\u015Bcie, by\u0142em tu i tam w areszcie, to ze wszystkich miejsc, ta
+        ziemia jest mi najmilsza. Bywam ostatnio w\u015Br\xF3d rzemie\u015Blnik\xF3w
+        i ludu \u0141odzi, kt\xF3ry robi, buduje. To dobry lud. Czuj\u0119, \u017Ce
+        w\u0142a\u015Bnie to miejsce, w ko\u0144cu pozwoli mi si\u0119 rozwija\u0107.
+        B\u0119dzie lepiej nie\u017C by\u0142o na Rusi.\r\nJedna rzecz jednak mnie
+        martwi. Oni wszyscy tutaj si\u0119 boj\u0105. Uciekaj\u0105 przed wzrokiem
+        zawsze si\u0119 bardzo bardzo chowaj\u0105. Jakby wszystko na co pracuj\u0105
+        mia\u0142o przepa\u015B\u0107 gdy tylko kto\u015B na to spojrzy. Oni robi\u0105,
+        tak samo jak nas czterech, dzia\u0142aj\u0105, lecz po tajemku. Smutny to
+        widok. Nie chcia\u0142bym, by mnie te\u017C spotka\u0142 ten ob\u0142\u0119d.
+        Nie lubi\u0119 ucieka\u0107, chce m\xF3c robi\u0107 moj\u0105 prac\u0119.
+        Chc\u0119 \u017Cy\u0107 nie prze\u017Cy\u0107. Lubi\u0119 \u017Cy\u0107.
+        Przesy\u0142am Ci fragment pioseneczki, inspirowany moimi wysi\u0142kami
+        i perypetiami tutaj.\r\n \r\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSize
+      value: 11.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.x
+      value: -27.530533
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.y
+      value: -8.47094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.z
+      value: -25.412766
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 

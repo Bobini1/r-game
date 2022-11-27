@@ -1770,6 +1770,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: WD March
   inputDelayInMilliseconds: 0
   fileLocation: pol2.mid
   noteTime: 1
