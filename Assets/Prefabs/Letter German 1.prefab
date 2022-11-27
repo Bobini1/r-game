@@ -29,9 +29,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        German'
+      value: "Wybacz mi r\xF3wnie\u017C za zwi\u0119z\u0142o\u015B\u0107, ale wobec
+        nadchodz\u0105cych wydarze\u0144 uwa\u017Cam, \u017Ce nale\u017Cy zachowa\u0107
+        szczeg\xF3ln\u0105 ostro\u017Cno\u015B\u0107.\r\nZ powo\u0142ania dworu kr\xF3lewskiego
+        Wilhelma Pierwszego, pokorny urz\u0119dnik Wilfred Hosenfeld \r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -127,15 +128,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter German
+      value: Letter German 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: This is so deep...
+      value: "Drogi Jakubie\r\nWobec obecnego rozwoju sytuacji musz\u0119 podkre\u015Bli\u0107,
+        \u017Ce czuje si\u0119 wsp\xF3\u0142odpowiedzialny za troski kt\xF3re mog\u0142y
+        Ci\u0119 dotkn\u0105\u0107 i w pierwszej kolejno\u015Bci chcia\u0142bym coby\u015B
+        wybaczy\u0142 mi moje formalne obowi\u0105zki i doktrynalne formu\u0142y
+        ale dla dobra naszych dalszych dzia\u0142a\u0144 wszelk\u0105 pos\u0142ug\u0119
+        musz\u0119 jak bardzo by mnie to nie bola\u0142o przy\u0142o\u017Cy\u0107
+        do zachowania mej pozycji. Nie chcia\u0142bym jednak \u017Ceby niezgod\u0119
+        moja pos\u0142uga wprowadza\u0142a mi\u0119dzy nami, tak\u017Ce w wymiarze
+        ugody wysy\u0142am obiecany fragment symfonii."
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset

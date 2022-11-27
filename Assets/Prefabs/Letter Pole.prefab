@@ -17,9 +17,8 @@ PrefabInstance:
       objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Pole'
+      value: "Nie zapomn\u0119, o ani jednym zak\u0105tku mej ziemi,\r\nbom wsz\u0119dzie
+        cz\u0105stk\u0119 mej duszy zostawi\u0142,\r\nWalenty D\u0105browski"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -115,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -125,6 +124,24 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Drogi Jakubie,\r\n\r\nWraz z tegoroczn\u0105 zim\u0105 ci\u0119\u017Cki
+        \u015Bnieg spad\u0142 okupacji na nasz nar\xF3d, zamrozi\u0142 nas, pogr\u0105\u017Cy\u0142
+        nas trwodze. Pruski zab\xF3r staje si\u0119 coraz surowszy, nie wystarczy
+        mu \u017Ce odebra\u0142 nam pola malowane zbo\u017Cem rozmaitem, wyz\u0142acane
+        pszenic\u0105, posrebrzane \u017Cytem, \u017Ce ju\u017C dawno odebra\u0142
+        nam wszystko.\r\n\r\nOtuchy dodaje mi fakt, \u017Cem \u015Bwiadom, \u017Ce
+        ani Ty ani nasza bra\u0107 nie jeste\u015Bcie uczuciom tym oboj\u0119tni,
+        i \u017Ce\u015Bcie got\xF3w stan\u0105\u0107 za nami, za polsk\u0105 ziemi\u0105.
+        I chod\u017A przykrym widokiem, krwi\u0105 powleka\u0107 z\u0142oto, czym\u017Ce
+        jest patrze\u0107 na pola, kiedy ja \u017Cem by\u0142 wolny, a dzi\u015B
+        w klatce. Wiedz, \u017Ce pi\xF3rem lub szabl\u0105, lub nut\u0105, zbli\u017Ca
+        si\u0119  dzie\u0144, w kt\xF3rym b\u0119dziemy musieli stan\u0105\u0107
+        do walki, za to, co nasze. A tymczasem, ku pokrzepieniu serca, przesy\u0142am
+        Ci zapis fragmentu naszej symfonii, o kt\xF3ry mnie niegdy\u015B prosi\u0142e\u015B.
+        Fragmentu zrodzonego z ziemi \u0142\u0119czyckiej.\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 

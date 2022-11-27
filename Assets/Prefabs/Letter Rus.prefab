@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Russian'
+      value: "Privet! \r\n\r\nIllya Ivanovich"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -107,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -117,6 +115,25 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 94eb10150fd466a4087d74e861e5b93f, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Szanowny towarzyszu Wilfredzie\r\n\r\nTwoje wsparcie du\u017Co dla
+        mnie znaczy, zar\xF3wno je\u015Bli chodzi o warstw\u0119 artystyczn\u0105,
+        niezawodne rady do moich utwor\xF3w, jak i ca\u0142\u0105 pomoc kt\xF3r\u0105
+        mi udzieli\u0142e\u015B w zwi\u0105zku z moj\u0105 ostatni\u0105 eskapad\u0105.
+        Ucieczka ze szpon\xF3w cara nie by\u0142a w ko\u0144cu a\u017C tak \u0142atwym
+        zadaniem. \u0141\xF3d\u017A jest pi\u0119kna. Tutaj wszystko jest tanie,
+        jestem w stanie tu \u017Cy\u0107, du\u017Co kupi\u0107. Na rynku lokalnym
+        rynku jest du\u017Co materia\u0142\xF3w, by\u0142em w stanie nawet znale\u017A\u0107
+        zapasowe struny do moich skrzypiec.  W ko\u0144cu, mog\u0119 skupi\u0107
+        si\u0119 na sztuce. Nasz projekt, kt\xF3ry ostatnio zaproponowa\u0142e\u015B,
+        wsp\xF3lna Symfonia, jest przednim pomys\u0142em. W ko\u0144cu, wszyscy w
+        czw\xF3rk\u0119,  stworzymy co\u015B razem. Wiem \u017Ce nasze style bywaj\u0105
+        r\xF3\u017Cne, lecz mam nadziej\u0119, \u017Ce pomimo wszystko b\u0119dziemy
+        w stanie razem to przezwyci\u0119\u017Cy\u0107, tak jak zawsze to robili\u015Bmy.
+        Nie mog\u0119 si\u0119 doczeka\u0107, by dzia\u0142a\u0107 razem.\r\n\r\nPoni\u017Cej
+        za\u0142\u0105czam szkic, jednej z melodii o kt\xF3rych ostatnio my\u015Bla\u0142em."
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 

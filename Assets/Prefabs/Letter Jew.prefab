@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Jew'
+      value: "K\u0142ania si\u0119 dydaktyk Jakub Sofer"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -117,6 +115,27 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Szanowny Walenty,\r\nM\xF3j drogi przyjacielu w cierpieniu i warto\u015Bci,
+        przelewam tu na kartk\u0119 wszystkie swoje zgryzoty. Wiem jak sprawy na
+        dolnej ulicy si\u0119 maj\u0105, nie martw si\u0119 \u017Ce\u015B sam, bowiem
+        mnie te\u017C one dotycz\u0105. Ostatkami si\u0142 staram si\u0119 przela\u0107
+        wiedz\u0119 i \u015Bwiadomo\u015B\u0107 w g\u0142ow\u0119 m\u0142odzie\u017Cy,
+        ale prusaki nie spuszczaj\u0105 ze mnie wzroku.\r\nDzi\u0119kuj\u0119 ci
+        za wsparcie, gdy inni na mnie z\u0142orzecz\u0105. Jednak zwa\u017Caj na
+        fakt, \u017Ce dzia\u0142aj\u0105c si\u0142owo sprowadzimy zag\u0142ad\u0119
+        na ludy nasze i wasze niezale\u017Cenie od jednolitej my\u015Bli. Pruska
+        machina nie z\u0142amie si\u0119 pod naszym naciskiem, ale pi\xF3ro zwyci\u0119\u017Cy
+        z czasem. Do tego momentu nale\u017Cy pracowa\u0107 uwa\u017Cnie i przechytrzy\u0107
+        wroga \u015Bwiadomo\u015Bci\u0105. Zach\u0119\u0107 przyjacielu ludzi z \u0141\xF3dzkiej
+        okolicy coby przyszli i pos\u0142uchali ojczy\u017Anianej my\u015Bli, ale
+        nie wzbudzaj rewolucyjnej zmowy bowiem prusak chce coby\u015Bmy si\u0119
+        sami w krwi topili.\r\nTrzymaj si\u0119 bezpiecznie i g\u0142o\u015B nasz\u0105
+        nowin\u0119.\r\nW mi\u0119dzyczasie, niech umys\u0142 tw\xF3j koi obiecany
+        ciep\u0142y d\u017Awi\u0119k kolejnego kawa\u0142ka naszej symfonii kt\xF3ry
+        to zamieszczam poni\u017Cej."
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 

@@ -1,0 +1,13 @@
+Font: Dynalight  Style: Regular
+Point Size: 36   SP/PD Ratio: 13.9%
+
+Characters included: 222/223
+Missing characters: 1
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 383	Hex: 17F	Char [ſ]
+
+Characters excluded from packing:
+----------------------------------------

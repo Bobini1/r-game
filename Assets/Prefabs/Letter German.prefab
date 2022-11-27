@@ -29,9 +29,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        German'
+      value: "Z powo\u0142ania dworu kr\xF3lewskiego Wilhelma Pierwszego, \r\npokorny
+        urz\u0119dnik Wilfred Hosenfeld"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -127,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -135,7 +134,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: This is so deep...
+      value: "Szanowny Panie Ivanovich\r\nWierz\u0119, \u017Ce sytuacj\u0119 Pana
+        rezydencji w terytoriach kr\xF3lestwa Prus niezw\u0142ocznie mi si\u0119
+        uda poprawi\u0107. W ko\u0144cu praworz\u0105dno\u015B\u0107 w rz\u0105dzie
+        pierwszorz\u0119dn\u0105 warto\u015Bci\u0105 a zapewnienie dobrobytu pierwszym
+        priorytetem. Zatem niech pan pozostanie na tych ziemiach i ciesz si\u0119
+        dostatkiem okolicy. Niech pochodzenie nie trawi Pana dobrobytu, wszak\u017Ce
+        wed\u0142ug zarz\u0105du sprytu, ka\u017Cda r\u0119k\u0105 do pracy si\u0119
+        przyda.\r\nCo do powod\xF3w twego przybycia, nie martw si\u0119 na nowej
+        drodze swego \u017Cycia, wszak\u017Ce\u015B teraz dla nas nie jest ju\u017C
+        Pan Rosjani n, ale \u017Ce\u015B pan praworz\u0105dny \u0141odzianin. Nie
+        wiem jak instytucje pochodzenia w tej sprawie post\u0105pi\u0105, aczkolwiek
+        mo\u017Cesz Pan za\u0142o\u017Cy\u0107, \u017Ce ust\u0105pi\u0105, a wi\u0119c
+        jest pan bezpieczny, od dzi\u015B zawsze pan tu mieszka\u0142. O dokumenty
+        prosz\u0119 si\u0119 nie martwi\u0107, w nast\u0119pnym li\u015Bcie prze\u015Bl\u0119
+        za\u0142\u0105cznik. \u017Bycz\u0119 spokoju i dobrobytu na nowej drodze
+        \u017Cycia.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
