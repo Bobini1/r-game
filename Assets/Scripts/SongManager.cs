@@ -51,7 +51,8 @@ public class SongManager : MonoBehaviour
     {
         float maxScore = GetSongNotes();
         float playerScore = GetComponent<ScoreManager>().getComboScore();
-        return (float)Math.Round(playerScore / maxScore * 100.0f, 2);
+        float resultScore = (float)Math.Round(playerScore / maxScore * 100.0f, 2);
+        return resultScore;
     }
 
     public bool IsFinished()
