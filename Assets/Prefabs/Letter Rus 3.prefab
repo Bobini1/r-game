@@ -109,7 +109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
@@ -168,5 +168,9 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -8025722609524864134, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 8124941571124061349, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: sceneName
+      value: Rus4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
