@@ -45,6 +45,7 @@ public class Zoom : MonoBehaviour
         initialZoom = orthographicSize;
         currentZoom = initialZoom;
         Zooming = false;
+        cam = Camera.main;
 
         stepsForFullZoom = Mathf.Abs(initialY - endY) / Mathf.Abs(initialZoom - maxZoom);
     }
