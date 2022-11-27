@@ -1855,7 +1855,7 @@ MonoBehaviour:
   songFadeoutInSeconds: 5
   marginOfError: 0.1
   inputDelayInMilliseconds: 0
-  fileLocation: ger4.mid
+  fileLocation: ger2.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3

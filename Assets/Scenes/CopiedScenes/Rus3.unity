@@ -450,7 +450,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2a4ab4d65b5797447b4d419fb5e95236, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1fe27eee7b40c974da18a062db70b621, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1855,7 +1855,7 @@ MonoBehaviour:
   songFadeoutInSeconds: 5
   marginOfError: 0.1
   inputDelayInMilliseconds: 0
-  fileLocation: rus3.mid
+  fileLocation: rus1.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3
