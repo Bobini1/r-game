@@ -67,7 +67,6 @@ public class Lane : MonoBehaviour
                 if (Math.Abs(audioTime - timeStamp) <= marginOfError)
                 {
                     Hit();
-                    GameObject.Find("GlowEffect").GetComponent<Glow>().DoGlow();
                     print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
@@ -102,6 +101,10 @@ public class Lane : MonoBehaviour
                 notes.Add(note.GetComponent<Note>());
                 note.GetComponent<Note>().assignedTime = (float) timeStamps[spawnIndex];
                 spawnIndex++;
+                if(spawnIndex < 2)
+                {
+                    Destroy(notes[inputIndex].gameObject);
+                }
             }
         }
         //else   // get last time stamp
@@ -118,9 +121,14 @@ public class Lane : MonoBehaviour
     private void Hit()
     {
         scoreManager.Hit();
+        GameObject.Find("GlowEffect").GetComponent<Glow>().DoGlow();
     }
     private void Miss()
     {
-        scoreManager.Miss();
+        if(spawnIndex > 1)
+        {
+            scoreManager.Miss();
+            GameObject.Find("GlowEffect").GetComponent<Glow>().DoGlowBad();
+        }
     }
 }
