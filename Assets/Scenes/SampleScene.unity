@@ -450,7 +450,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bd87b666bbef3e8439bc86786b9d5d39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 26f01861ebe9f294ca2e3912ddb30fd4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1497,11 +1497,11 @@ MonoBehaviour:
   - {fileID: 1856990796}
   - {fileID: 1441840087}
   - {fileID: 633316277}
-  songDelayInSeconds: 0
+  songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
   inputDelayInMilliseconds: 0
-  fileLocation: we_made_a_chart_pog.mid
+  fileLocation: jew1.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3
