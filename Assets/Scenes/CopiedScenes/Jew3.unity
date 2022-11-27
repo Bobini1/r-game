@@ -450,7 +450,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 26f01861ebe9f294ca2e3912ddb30fd4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 54f5495320721744c8c2b707977bede2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1466,7 +1466,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: e2545d419d4c07d4e8e0ae990cb93c55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7fff84a5fd706d74f8712d027d85c8d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1771,7 +1771,7 @@ MonoBehaviour:
   songFadeoutInSeconds: 5
   marginOfError: 0.1
   inputDelayInMilliseconds: 0
-  fileLocation: jew1.mid
+  fileLocation: jew3.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3
