@@ -1854,6 +1854,7 @@ MonoBehaviour:
   songDelayInSeconds: 5
   songFadeoutInSeconds: 5
   marginOfError: 0.1
+  name: WD History
   inputDelayInMilliseconds: 0
   fileLocation: pol4.mid
   noteTime: 1
