@@ -1,19 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class OnEscape : MonoBehaviour
+public class RGameManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public UnityEvent onEscape;
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            onEscape.Invoke();
-        }
+
+
+        
     }
+
+    public void Invoke()
+    {
+        GetComponent<ChangeScene>().LoadScene("MainMenu");
+    }
+
+
 }
