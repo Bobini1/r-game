@@ -1552,6 +1552,8 @@ MonoBehaviour:
   missSFX: {fileID: 196697199}
   scoreText: {fileID: 18088341}
   maxTimeStamps: []
+  speedAdjuster: 0
+  audioSource: {fileID: 159419516}
   progressBar: {fileID: 1139062893}
 --- !u!1 &1856990795
 GameObject:
