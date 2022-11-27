@@ -7,8 +7,10 @@ public class ScoreManager : MonoBehaviour
     public AudioSource hitSFX;
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
+    public TMPro.TextMeshPro comboPoints;
     int comboScore;
     int maxScore;
+    int combo;
     int failCounter = 0;
     public List<float> maxTimeStamps = new();
 
@@ -27,6 +29,7 @@ public class ScoreManager : MonoBehaviour
     }
     void Start()
     {
+        combo = 0;
         comboScore = 0;
         //progressBarValue = 0;
         if(songManager != null)
@@ -38,6 +41,7 @@ public class ScoreManager : MonoBehaviour
     public void Hit()
     {
         comboScore += 1;
+        combo++;
         maxScore++;
         hitSFX.Play();
     }
@@ -60,12 +64,14 @@ public class ScoreManager : MonoBehaviour
             }
         }
         comboScore -= 1;
+        combo = 0;
         maxScore++;
         missSFX.Play();
     }
     private void Update()
     {
         scoreText.text = comboScore.ToString();
+        comboPoints.text = ("+" + combo.ToString());
         //set me
 
         //float speed = GameObject.Find("SongManager").GetComponent<SongManager>().GetSongNotes() / MaxTimeStamp();
