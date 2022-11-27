@@ -6,12 +6,21 @@ using UnityEngine;
 public class LetterFactory : MonoBehaviour
 {
     public GameObject letterPrefab;
-    GameObject CreateLetter(string topText, string bottomText, string songPath)
+    public GameObject mountingPoint;
+    public DeleteLetterOrQuit deleteLetterOrQuit;
+
+    void Start()
+    {
+        
+    }
+
+    public void CreateLetter()
     {
         GameObject letter = Instantiate(letterPrefab);
-        letter.transform.Find("LetterBeginning").GetComponent<TextMeshProUGUI>().text = topText;
-        letter.transform.Find("BottomText").GetComponent<TextMeshProUGUI>().text = bottomText;
-        letter.transform.Find("StartSong").GetComponent<ChangeSceneStateful>().sceneName = songPath;
-        return letter;
+        deleteLetterOrQuit.letter = letter;
+        foreach(var zoom in letter.GetComponentsInChildren<Zoom>())
+        {
+            zoom.cam = Camera.main;
+        }
     }
 }
