@@ -24,6 +24,11 @@ public class SongManager : MonoBehaviour
     public float noteSpawnY;
     public float noteTapY;
     private bool showingResultScreen = false;
+
+    private bool failCondition = false;
+
+    public bool resultScreenShown = false;
+
     public float noteDespawnY
     {
         get
@@ -130,9 +135,10 @@ public class SongManager : MonoBehaviour
         }
     }
 
-    private void FadeoutToResult()
+    public void FadeoutToResult()
     {
         float score = getScorePercent();
         GetComponent<SongResultFactory>().Create("Jew Chaos", score);
+        audioSource.volume = 0;
     }
 }

@@ -18,6 +18,8 @@ public class Lane : MonoBehaviour
     int spawnIndex;
     int inputIndex;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
