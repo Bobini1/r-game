@@ -126,6 +126,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Wilfredzie, \ncho\u0107 nie chcia\u0142bym, by sprawy polityczne mia\u0142y
+        por\xF3\u017Cni\u0107 nasz\u0105 wsp\xF3\u0142prac\u0119, je\u015Bli chodzi
+        o wsp\xF3lne harmonie i pie\u015Bni, ci\u0119\u017Cko jest mi zachowa\u0107
+        neutralno\u015B\u0107 w obliczu ostatnich wydarze\u0144, i nie przypisywa\u0107
+        Ci za nie winy. Nie zapomnia\u0142e\u015B raczej, jak ostatnimi miesi\u0105cami
+        wiele razy wytyka\u0142em Ci bierno\u015B\u0107, przyk\u0142adanie r\u0119ki
+        do proceder\xF3w ograniczaj\u0105cych wolno\u015B\u0107 wyrazu my\u015Bli
+        i przekona\u0144. Masz na r\u0119kach krew ludzi kt\xF3rym zosta\u0142 odebrany
+        ca\u0142y nar\xF3d, a teraz tak\u017Ce, zosta\u0142y odbierane ich prawa.
+        A wszystko to, przez bierno\u015B\u0107 i brak ludzkich skrupu\u0142\xF3w,
+        ludzi uprzywilejowanych, lepszych takich jak ty, kt\xF3rzy teraz maj\u0105
+        w\u0142adz\u0119 nad lud\u017Ami takimi jak ja.\r\n \r\nMieli\u015Bmy razem,
+        budowa\u0107 dobro tego miasta, a Ty ka\u017Cdego dnia wspierasz system kt\xF3ry
+        je niszczy. Przesy\u0142am Ci ten oto utw\xF3r, maj\u0105c nadziej\u0119,
+        \u017Ce pomimo Twojego ws\u0142uchasz si\u0119 w g\u0142osy ludu.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
@@ -133,6 +151,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+    - target: {fileID: 7613100147129912818, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
 --- !u!114 &2622929134147724632 stripped

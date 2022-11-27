@@ -9,9 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Russian'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -107,20 +105,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Rus
+      value: Letter Rus 2
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 94eb10150fd466a4087d74e861e5b93f, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Panie Sofer,\r\n\r\nCzyta\u0142em, to co ostatnio pisa\u0142e\u015B,
+        i z naszych ostatnich wymian nasuwa mi si\u0119 tylko jedna konkluzja. Twoja
+        wy\u017Cszo\u015B\u0107, cho\u0107 zawsze widoczna, teraz do reszty przys\u0142oni\u0142a
+        Ci racjonalne my\u015Blenie. Nawet w Twoich pasa\u017Cach, zawsze tak harmonijnych
+        by\u0142o s\u0142ycha\u0107 \r\nZarzucasz \u017Ce wystaje mi s\u0142oma z
+        but\xF3w, a powiem Ci tak. Mo\u017Ce i mam s\u0142om\u0119, w butach, lecz
+        to ja przetrwam, przetrwam i b\u0119d\u0119 \u017Cy\u0107 i do\u015Bwiadcza\u0107
+        prawdziwie, gdy Ty b\u0119dziesz siedzie\u0107 z nosem w lekturach i pergaminach.
+        Ty chcesz na nich budowa\u0107 swoje \u017Cycie. Mam nadziej\u0119 \u017Ce
+        b\u0119dziesz szcz\u0119\u015Bliwy, ze swoimi znajomi pisarzami i uczonymi.
+        Umykaj\u0105 Twojej uwadze najprostsze fakty, \u017Ce zwyk\u0142ym ludziom
+        ci\u0119\u017Cko skupi\u0107 si\u0119 na nauce, gdy w oczy zagl\u0105da im
+        g\u0142\xF3d. Ludzie, potrzebuj\u0105 pokrzepienia, ludzie potrzebuj\u0105
+        ciep\u0142a. Nie m\u0105dro\u015Bci udowych i pradawnych traktat\xF3w.\r\n\r\nMam
+        nadziej\u0119 \u017Ce przeczytawszy poni\u017Csz\u0105 melodi\u0119, wr\xF3cisz
+        my\u015Blami do starych czas\xF3w i zastanowisz si\u0119, czy chocia\u017C
+        pami\u0119tasz jeszcze co znaczy \u017Cy\u0107 i by\u0107 artyst\u0105.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSize
+      value: 9.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.x
+      value: -29.27893
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.z
+      value: -25.4599
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: b107dba5fc399104b82cdc23b97e039d, type: 2}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 9.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 

@@ -17,9 +17,12 @@ PrefabInstance:
       objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: 'Sed ut perspiciatis unde omnis.
-
-        Pole'
+      value: "Wy, co piszecie histori\u0119. Teraz wasza kolej. Piszcie swoj\u0105
+        melodi\u0119.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_margin.z
+      value: 150.463
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -29,6 +32,14 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -263.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -125,6 +136,25 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
+    - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_text
+      value: "Dla tych, co pisz\u0105 histori\u0119\r\nChcia\u0142bym m\xF3c stwierdzi\u0107,
+        \u017Ce wszystkie historie ko\u0144cz\u0105 si\u0119 dobrze, tak jednak nie
+        jest. Nawet najpi\u0119kniejsze melodie nie s\u0105 w stanie pokona\u0107
+        fa\u0142szywej nuty, a nawet najpi\u0119kniejsze s\u0142owa nie s\u0105 w
+        stanie zmieni\u0107 prawdy. A prawda jest taka, \u017Ce opu\u015Bci\u0142em,
+        porzuci\u0142em ojczyzn\u0119. Ojczyzn\u0119, kt\xF3ra nadal pozostaje pod
+        zaborami, w ciszy cierpi\u0105c, gdy reszta \u015Bwiata si\u0119 temu przygl\u0105da
+        i opowiada swoj\u0105 histori\u0119, w kt\xF3rej nie ma cierpienia, i nie
+        ma zabor\xF3w. Histori\u0119 pisz\u0105 zwyci\u0119zcy.\r\nMy, ja, Illya,
+        Jakub, Wilfred, nie byli\u015Bmy w stanie doko\u0144czy\u0107 naszej symfonii,
+        naszego arcydzie\u0142a. Moi starzy przyjaciele, nawet nie wiem jeszcze co
+        si\u0119 z nimi sta\u0142o, gdzie teraz s\u0105, gdzie rozbrzmiewaj\u0105
+        ich kroki. I cho\u0107 nasza pie\u015B\u0144, nie by\u0142a w stanie pop\u0142yn\u0105\u0107,
+        nie by\u0142a w stanie pokrzepi\u0107 serca kwiatu wsp\xF3\u0142czesnej m\u0142odzie\u017Cy,
+        to naprawd\u0119, bardzo chcieli\u015Bmy zostawi\u0107 co\u015B, zaszczepi\u0107
+        idee, nawet je\u017Celi najmniejsze.\r\n \r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
