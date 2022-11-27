@@ -1155,7 +1155,7 @@ GameObject:
   - component: {fileID: 894658011}
   - component: {fileID: 894658010}
   m_Layer: 0
-  m_Name: Square
+  m_Name: ProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1221,7 +1221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894658009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.25, z: 0}
+  m_LocalPosition: {x: -18.5, y: -4.25, z: 0}
   m_LocalScale: {x: 19.2, y: 1.72, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1458,6 +1458,7 @@ MonoBehaviour:
   hitSFX: {fileID: 50234357}
   missSFX: {fileID: 196697199}
   scoreText: {fileID: 18088341}
+  progressBar: {fileID: 894658009}
 --- !u!1 &1816860298
 GameObject:
   m_ObjectHideFlags: 0
