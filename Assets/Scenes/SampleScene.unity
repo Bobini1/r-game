@@ -1553,6 +1553,8 @@ MonoBehaviour:
   scoreText: {fileID: 18088341}
   maxTimeStamps: []
   progressBar: {fileID: 1139062893}
+  speedAdjuster: 0
+  audioSource: {fileID: 159419516}
 --- !u!1 &1856990795
 GameObject:
   m_ObjectHideFlags: 0
