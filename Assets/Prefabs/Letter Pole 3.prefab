@@ -1,26 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7224920951860019330
+--- !u!1001 &8014303569333997153
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2553079448009872971, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 2622929134147724632}
+    - target: {fileID: 3476259219508925691, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
       value: 'Sed ut perspiciatis unde omnis.
 
-        Jew'
+        Pole'
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -107,72 +115,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Jew
+      value: Letter Pole 3
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
+      objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1207354874}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ChangeScene, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: SampleScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
---- !u!1 &1000706682251867217 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7613100147280426195, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-  m_PrefabInstance: {fileID: 7224920951860019330}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1207354874
+--- !u!114 &2622929134147724632 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5430780970702318393, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+  m_PrefabInstance: {fileID: 8014303569333997153}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000706682251867217}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe8239ab53a7804583900cf44f807dc, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3978648014995515368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6345142963564358025, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+  m_PrefabInstance: {fileID: 8014303569333997153}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

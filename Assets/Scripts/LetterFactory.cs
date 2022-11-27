@@ -6,13 +6,7 @@ using UnityEngine;
 public class LetterFactory : MonoBehaviour
 {
     public GameObject letterPrefab;
-    public GameObject mountingPoint;
     public DeleteLetterOrQuit deleteLetterOrQuit;
-
-    void Start()
-    {
-        
-    }
 
     public void CreateLetter()
     {
