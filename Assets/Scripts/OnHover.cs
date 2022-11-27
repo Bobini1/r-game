@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class OnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+
     public UnityEngine.UI.Image image;
 
     private Color initialColor;
@@ -28,4 +30,6 @@ public class OnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         image.color = Color.clear;
     }
+
+
 }
