@@ -21,8 +21,14 @@ public class Glow : MonoBehaviour
 
     public void DoGlow()
     {
-        image.color = new Color32(255, 255, 255, 65);
+        image.color = new Color32(255, 161, 0, 100);
         Invoke("StopGlow", 0.2f);
+    }
+
+    public void DoGlowBad()
+    {
+        image.color = new Color32(234, 2, 0, 100);
+        Invoke("StopGlow", 0.1f);
     }
 
     public void StopGlow()
