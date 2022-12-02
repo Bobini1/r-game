@@ -6,7 +6,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class ListObject
+public class RhythmGame
 {
     /// <summary>
     /// progress note summary;; there will be unique 16;; add to data base entries
@@ -18,12 +18,12 @@ public class ListObject
     public AudioClip musicClip;
     public MidiFile musicMidiFile;
 
-    public ListObject()
+    public RhythmGame()
     {
 
     }
 
-    public ListObject(int Id, string name)
+    public RhythmGame(int Id, string name)
     {
         id = Id;
         layoutSprite = Resources.Load<Sprite>("Sprites/layouts/" + name);
