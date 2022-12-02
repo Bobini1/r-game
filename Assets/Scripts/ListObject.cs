@@ -8,7 +8,11 @@ using UnityEngine;
 
 public class ListObject
 {
+    /// <summary>
+    /// progress note summary;; there will be unique 16;; add to data base entries
+    /// </summary>
     public int id;
+    public string name;
     public Sprite layoutSprite;
     public Sprite overlayFivelineSprite;
     public AudioClip musicClip;
@@ -19,15 +23,13 @@ public class ListObject
 
     }
 
-    public ListObject(int Id, Sprite LayoutSprite, 
-        Sprite OverlayFiveLineSprite, AudioClip MusicClip, 
-        MidiFile MusicMidiFile)
+    public ListObject(int Id, string name)
     {
         id = Id;
-        layoutSprite = LayoutSprite;
-        overlayFivelineSprite = Resources.Load<Sprite>("");
-        musicClip = MusicClip;
-        musicMidiFile = MusicMidiFile;
+        layoutSprite = Resources.Load<Sprite>("Sprites/layouts/" + name);
+        overlayFivelineSprite = Resources.Load<Sprite>("Sprites/5line/" + name);
+        musicClip = Resources.Load<AudioClip>("Audio/" + name);
+        musicMidiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + id);
     }
 }
 
