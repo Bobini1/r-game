@@ -29,7 +29,7 @@ public class RhythmGame
         layoutSprite = Resources.Load<Sprite>("Sprites/layouts/" + name);
         overlayFivelineSprite = Resources.Load<Sprite>("Sprites/5line/" + name);
         musicClip = Resources.Load<AudioClip>("Audio/" + name);
-        musicMidiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + id);
+        musicMidiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + name);
     }
 }
 
