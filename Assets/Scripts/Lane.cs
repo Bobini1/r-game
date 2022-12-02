@@ -31,7 +31,8 @@ public class Lane : MonoBehaviour
         foreach (var note in array)
         {
             if (note.NoteName == noteRestriction)
-            {
+            {                                                                         //Song Manager restaticfied;;; due for potential rewrite
+
                 var metricTimeSpan = TimeConverter.ConvertTo<MetricTimeSpan>(note.Time, SongManager.midiFile.GetTempoMap());
                 timeStamps.Add((double)metricTimeSpan.Minutes * 60f + metricTimeSpan.Seconds + (double)metricTimeSpan.Milliseconds / 1000f);
             }

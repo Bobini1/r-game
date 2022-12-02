@@ -9,13 +9,13 @@ public class DataBase : MonoBehaviour
 
     private void Awake()
     {
-        LetterList.Add(new RhythmGame(0, "Placeholder"));
+        LetterList.Add(new RhythmGame());
         //¿yd
         LetterList.Add(new RhythmGame(1, "Jew_01"));
         LetterList.Add(new RhythmGame(2, "Jew_02"));
         LetterList.Add(new RhythmGame(3, "Jew_03"));
         LetterList.Add(new RhythmGame(4, "Jew_04"));
-        //pola1
+        //polak
         LetterList.Add(new RhythmGame(5, "Pol_01"));
         LetterList.Add(new RhythmGame(6, "Pol_02"));
         LetterList.Add(new RhythmGame(7, "Pol_03"));

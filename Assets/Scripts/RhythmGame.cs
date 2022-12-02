@@ -16,7 +16,6 @@ public class RhythmGame
     public Sprite layoutSprite;
     public Sprite overlayFivelineSprite;
     public AudioClip musicClip;
-    public MidiFile musicMidiFile;
     public Sprite noteProgressBar;
 
     public RhythmGame()
@@ -24,14 +23,14 @@ public class RhythmGame
 
     }
 
-    public RhythmGame(int Id, string name)
+    public RhythmGame(int Id, string Name)
     {
         id = Id;
+        name = Name;
         layoutSprite = Resources.Load<Sprite>("Sprites/layouts/" + name);
         noteProgressBar = Resources.Load<Sprite>("Sprites/noteProgressBar/" + name);
         overlayFivelineSprite = Resources.Load<Sprite>("Sprites/5line/" + name);
         musicClip = Resources.Load<AudioClip>("Audio/" + name);
-        musicMidiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + name);
     }
 }
 

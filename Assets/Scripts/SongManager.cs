@@ -14,7 +14,7 @@ public class SongManager : MonoBehaviour
     public float songDelayInSeconds;
     public float songFadeoutInSeconds;
     public double marginOfError; // in seconds
-    public string name;
+    public new string name;
 
     public int inputDelayInMilliseconds;
     
@@ -80,6 +80,7 @@ public class SongManager : MonoBehaviour
         else
         {
             ReadFromFile();
+
         }
     }
 

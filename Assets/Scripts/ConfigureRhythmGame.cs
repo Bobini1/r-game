@@ -16,16 +16,23 @@ public class ConfigureRhythmGame : MonoBehaviour
     public void Awake()
     {
         rhythmGame.SetActive(false);
+        
+    }
+
+    public void Start()
+    {
+        Configure(1);
     }
 
 
     public void Configure(int i)
     {
+        rhythmGame.SetActive(true);
         dataBaseRelay = DataBase.LetterList[i];
         audioSource.clip = dataBaseRelay.musicClip;
         layout.sprite = dataBaseRelay.layoutSprite;
         //noteProgressBar = dataBaseRelay.noteProgressBar     enable once progress bars are int the catalogue!!! ~ dejwi
-        songManager.fileLocation =
+        songManager.fileLocation = dataBaseRelay.name + ".mid";
 
     }
 }
