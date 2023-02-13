@@ -35,6 +35,7 @@ public class ConfigureRhythmGame : MonoBehaviour
 
         rhythmGame.SetActive(true);
         navigationObject.SetActive(false);
+        Destroy(GameObject.FindGameObjectWithTag("PreLoadList"));
         //noteProgressBar = dataBaseRelay.noteProgressBar     enable once progress bars are int the catalogue!!! ~ dejwi
         songManager.fileLocation = dataBaseRelay.name + ".mid";
 
