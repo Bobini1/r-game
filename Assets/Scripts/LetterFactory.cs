@@ -8,13 +8,21 @@ public class LetterFactory : MonoBehaviour
     public GameObject letterPrefab;
     public DeleteLetterOrQuit deleteLetterOrQuit;
 
-    public void CreateLetter()
+    public RhythmGame game;
+
+
+    public void CreateLetter(int i)
     {
-        GameObject letter = Instantiate(letterPrefab);
+
+        game = DataBase.LetterList[i];
+        GameObject letter = Instantiate(game.letterPrefab);
+        Camera.main.gameObject.GetComponent<ConfigureRhythmGame>().Configure(i);
+        letter.GetComponentInChildren<SongManager>().songID = i;
         deleteLetterOrQuit.letter = letter;
         foreach(var zoom in letter.GetComponentsInChildren<Zoom>())
         {
             zoom.cam = Camera.main;
         }
+
     }
 }

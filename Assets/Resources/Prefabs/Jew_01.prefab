@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "K\u0142ania si\u0119 dydaktyk Jakub Sofer"
+      value: "K\u0142ania si\u0119 dydaktyk Jakub Sofer\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -109,7 +109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Jew
+      value: Jew_01
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
@@ -117,24 +117,22 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Szanowny Walenty,\r\nM\xF3j drogi przyjacielu w cierpieniu i warto\u015Bci,
-        przelewam tu na kartk\u0119 wszystkie swoje zgryzoty. Wiem jak sprawy na
-        dolnej ulicy si\u0119 maj\u0105, nie martw si\u0119 \u017Ce\u015B sam, bowiem
-        mnie te\u017C one dotycz\u0105. Ostatkami si\u0142 staram si\u0119 przela\u0107
-        wiedz\u0119 i \u015Bwiadomo\u015B\u0107 w g\u0142ow\u0119 m\u0142odzie\u017Cy,
-        ale prusaki nie spuszczaj\u0105 ze mnie wzroku.\r\nDzi\u0119kuj\u0119 ci
-        za wsparcie, gdy inni na mnie z\u0142orzecz\u0105. Jednak zwa\u017Caj na
-        fakt, \u017Ce dzia\u0142aj\u0105c si\u0142owo sprowadzimy zag\u0142ad\u0119
-        na ludy nasze i wasze niezale\u017Cenie od jednolitej my\u015Bli. Pruska
-        machina nie z\u0142amie si\u0119 pod naszym naciskiem, ale pi\xF3ro zwyci\u0119\u017Cy
-        z czasem. Do tego momentu nale\u017Cy pracowa\u0107 uwa\u017Cnie i przechytrzy\u0107
-        wroga \u015Bwiadomo\u015Bci\u0105. Zach\u0119\u0107 przyjacielu ludzi z \u0141\xF3dzkiej
-        okolicy coby przyszli i pos\u0142uchali ojczy\u017Anianej my\u015Bli, ale
-        nie wzbudzaj rewolucyjnej zmowy bowiem prusak chce coby\u015Bmy si\u0119
-        sami w krwi topili.\r\nTrzymaj si\u0119 bezpiecznie i g\u0142o\u015B nasz\u0105
-        nowin\u0119.\r\nW mi\u0119dzyczasie, niech umys\u0142 tw\xF3j koi obiecany
-        ciep\u0142y d\u017Awi\u0119k kolejnego kawa\u0142ka naszej symfonii kt\xF3ry
-        to zamieszczam poni\u017Cej."
+      value: "Szanowny Wilfriedzie,\r\nWiem, \u017Ce prosz\u0119 Ci\u0119 o wiele
+        drogi przyjacielu ale sprawy przybra\u0142y z\u0142y obr\xF3t w ostatnim
+        czasie i nie wiem jak d\u0142ugo b\u0119d\u0119 m\xF3g\u0142 czu\u0107 si\u0119
+        bezpiecznie. Jako nauczyciel musz\u0119 si\u0119ga\u0107 po pomoce naukowe,
+        a i zarazem drukowa\u0107 w\u0142asne artyku\u0142y, coby moi uczniowie mogli
+        dzi\u0119ki nim pog\u0142\u0119bia\u0107 swoje kompetencj\u0119. Jednak w
+        obliczu napi\u0119\u0107 za wschodni\u0105 granic\u0105 drukarnie odmawiaj\u0105
+        mi swoich us\u0142ug w obliczu ryzyka zamkni\u0119cia ich przez w\u0142adz\u0119.
+        I o ile samo w sobie jest to cierniem w moim boku, tak teraz ja oraz moi
+        sojusznicy w sprawie szerzenia \u015Bwiadomo\u015Bci jeste\u015Bmy n\u0119kani
+        przez funkcjonariuszy co najmniej pare razy w tygodniu. Za ka\u017Cdym razem
+        mam wra\u017Cenie, \u017Ce znajd\u0105 w ko\u0144cu co\u015B za co mo\u017Cna
+        b\u0119dzie nas uciszy\u0107, a wtedy nastanie koniec naszych stara\u0144.
+        B\u0142agam Ci\u0119 przyjacielu, zr\xF3b wszystko co w twej mocy by dopom\xF3c
+        naszemu spokoju.\r\nZgodnie z obietnic\u0105, za\u0142\u0105czam kolejny
+        fragment symfonii poni\u017Cej\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
@@ -170,7 +168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: SampleScene
+      value: Jew1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName

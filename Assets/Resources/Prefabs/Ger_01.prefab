@@ -1,25 +1,45 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7224920951860019330
+--- !u!1001 &1043843732066272262
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: endY
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: maxZoom
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: endY
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: maxZoom
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "I cho\u0107by by\u0142y to me ostatnie zapiski, wierz\u0119 w przysz\u0142o\u015B\u0107
-        wasz\u0105, dydaktyk Jakub Sofer\r"
+      value: "Z powo\u0142ania dworu kr\xF3lewskiego Wilhelma Pierwszego, \r\npokorny
+        urz\u0119dnik Wilfred Hosenfeld"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -106,99 +126,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Jew 3
+      value: Letter German
       objectReference: {fileID: 0}
-    - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Ludy \u0141odzi i okolic!\r\nPrzemawiam do was z g\u0142\u0119bi mego
-        serca i umys\u0142u w sprawie ka\u017Cdego mieszka\u0144ca okolic, regionu,
-        kraju, kontynentu. Pytam was, moi s\u0142uchacze, czym\u017Ce jest najzdolniejszy
-        cz\u0142owiek, je\u017Celi ca\u0142e \u017Cycie b\u0142\u0105dzi w ciemno\u015Bciach
-        braku \u015Bwiadomo\u015Bci? Nawet najwi\u0119ksze umiej\u0119tno\u015Bci
-        wymagaj\u0105 wiedzy, coby mog\u0142y by\u0107 u\u017Cyte zgodnie. Wobec
-        tego nawet na poz\xF3r ma\u0142o uzdolniony indywidua\u0142, a taki kt\xF3ry
-        posiad\u0142 \u015Bwiadomo\u015B\u0107 swego otoczenia wykazuje wi\u0119kszy
-        potencja\u0142 ni\u017C kto\u015B znacznie bardziej u\u017Cyteczny, kt\xF3ry
-        to jednak swego czynu przez brak wiedzy u\u017Cy\u0107 nie zdo\u0142a. Apeluj\u0119
-        wi\u0119c do was, aby\u015Bcie docenili przysz\u0142o\u015Bciowo\u015B\u0107
-        edukacji, podtrzymywania \u015Bwiadomo\u015Bci narodowej, oraz odr\u0119bno\u015Bci,
-        a zarazem zgodno\u015Bci pomi\u0119dzy wszelakimi kulturami zamieszkaj\u0105cymi
-        nasz\u0105 ukochan\u0105 okolic\u0119. Ostatnimi czasy spotka\u0142a mnie
-        jeno represja, prze\u015Bladowania i inne terrory, ale nie ustan\u0119. en
-        oto apel dla dobra ludu rozwiesz\u0119 na ka\u017Cdym drzewie, znaku i domu
-        jaki wzrok m\xF3j si\u0119gnie. Wiem, \u017Ce przekaz ten jest pewno mym
-        ostatnim, dlatego zostawiam wam, moim przyjacio\u0142om, s\u0105siadom, mieszka\u0144com
-        ukochanej okolicy co\u015B co najbardziej dla mnie teraz wartne, ostatni
-        z obiecanych przez mnie fragment\xF3w symfonii czterech.\r"
+      value: "Szanowny Panie Ivanovich\r\nWierz\u0119, \u017Ce sytuacj\u0119 Pana
+        rezydencji w terytoriach kr\xF3lestwa Prus niezw\u0142ocznie mi si\u0119
+        uda poprawi\u0107. W ko\u0144cu praworz\u0105dno\u015B\u0107 w rz\u0105dzie
+        pierwszorz\u0119dn\u0105 warto\u015Bci\u0105 a zapewnienie dobrobytu pierwszym
+        priorytetem. Zatem niech pan pozostanie na tych ziemiach i ciesz si\u0119
+        dostatkiem okolicy. Niech pochodzenie nie trawi Pana dobrobytu, wszak\u017Ce
+        wed\u0142ug zarz\u0105du sprytu, ka\u017Cda r\u0119k\u0105 do pracy si\u0119
+        przyda.\r\nCo do powod\xF3w twego przybycia, nie martw si\u0119 na nowej
+        drodze swego \u017Cycia, wszak\u017Ce\u015B teraz dla nas nie jest ju\u017C
+        Pan Rosjani n, ale \u017Ce\u015B pan praworz\u0105dny \u0141odzianin. Nie
+        wiem jak instytucje pochodzenia w tej sprawie post\u0105pi\u0105, aczkolwiek
+        mo\u017Cesz Pan za\u0142o\u017Cy\u0107, \u017Ce ust\u0105pi\u0105, a wi\u0119c
+        jest pan bezpieczny, od dzi\u015B zawsze pan tu mieszka\u0142. O dokumenty
+        prosz\u0119 si\u0119 nie martwi\u0107, w nast\u0119pnym li\u015Bcie prze\u015Bl\u0119
+        za\u0142\u0105cznik. \u017Bycz\u0119 spokoju i dobrobytu na nowej drodze
+        \u017Cycia.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1207354874}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ChangeScene, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: Jew3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
     - target: {fileID: 8124941571124061349, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: sceneName
-      value: Jew3
+      value: Pru1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
---- !u!1 &1000706682251867217 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7613100147280426195, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-  m_PrefabInstance: {fileID: 7224920951860019330}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1207354874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000706682251867217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe8239ab53a7804583900cf44f807dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConfigureRhythmGame : MonoBehaviour
 {
     public GameObject rhythmGame;
+    public GameObject navigationObject;
     public AudioSource audioSource;
     public SpriteRenderer layout;
     public SpriteRenderer noteProgressBar;
@@ -16,21 +17,24 @@ public class ConfigureRhythmGame : MonoBehaviour
     public void Awake()
     {
         rhythmGame.SetActive(false);
-        
+        navigationObject.SetActive(true);
     }
 
     public void Start()
     {
-        Configure(1);
+        
     }
 
 
     public void Configure(int i)
     {
-        rhythmGame.SetActive(true);
+        
         dataBaseRelay = DataBase.LetterList[i];
         audioSource.clip = dataBaseRelay.musicClip;
         layout.sprite = dataBaseRelay.layoutSprite;
+
+        rhythmGame.SetActive(true);
+        navigationObject.SetActive(false);
         //noteProgressBar = dataBaseRelay.noteProgressBar     enable once progress bars are int the catalogue!!! ~ dejwi
         songManager.fileLocation = dataBaseRelay.name + ".mid";
 

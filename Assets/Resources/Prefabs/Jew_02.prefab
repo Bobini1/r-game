@@ -1,41 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8014303569333997153
+--- !u!1001 &7224920951860019330
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2553079448009872971, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: image
-      value: 
-      objectReference: {fileID: 2622929134147724632}
-    - target: {fileID: 3476259219508925691, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: image
-      value: 
-      objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Nie zapomn\u0119, o ani jednym zak\u0105tku mej ziemi,\r\nbom wsz\u0119dzie
-        cz\u0105stk\u0119 mej duszy zostawi\u0142,\r\nWalenty D\u0105browski\r\n"
+      value: "Z powa\u017Caniem dydaktyk Jakub Sofer\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
-    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -13.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7613100145731226525, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -250.9
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -122,69 +105,96 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter Pole 1
+      value: Letter Jew 2
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
+      objectReference: {fileID: 21300000, guid: 5f57d78d88b618344971e0a383b65204, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Illya, Bracie\r\n\r\nJak\u017Ce mi\u0142o pisa\u0107 mi znowu do mego
-        brata, cho\u0107 krwi\u0105 r\xF3\u017Cnego, ide\u0105 jednego. Cz\u0119sto
-        wracam my\u015Blami do naszej ostatniej rozmowy, w kt\xF3rej stwierdzi\u0142e\u015B,
-        i\u017C konieczno\u015Bci\u0105, i obowi\u0105zkiem ka\u017Cdego cz\u0142owieka
-        rozwija\u0107 si\u0119, poprzez trosk\u0119 o w\u0142asne dobro, troszczy\u0107
-        si\u0119 o dobro og\xF3\u0142u. Czuj\u0119 si\u0119 wi\u0119c, rzecz mo\u017Cna
-        stwierdzi\u0107 zobligowany, pod\u0105\u017Cy\u0107 wraz z reszt\u0105 moich
-        rodak\xF3w w styczniowej nadziei, na odzyskanie tego, o czym wszyscy razem
-        marzymy. Zainspirowany Twoim przyk\u0142adem, wyruszam w drog\u0119,  wyruszam
-        jednak, naprzeciw przeznaczeniu, nie cofam si\u0119. W tak w\u0142a\u015Bnie
-        chcia\u0142bym zosta\u0107 zapami\u0119tany. Gdybym mia\u0142 ju\u017C nie
-        wr\xF3ci\u0107, poni\u017Cej przesy\u0142am m\xF3j ostatni fragment, z kt\xF3rym
-        wyruszam w podr\xF3\u017C, albowiem mam zamiar umiera\u0107, z muzyk\u0105
-        i pie\u015Bni\u0105 w sercu.\r\nI cho\u0107 wiem, \u017Ce nie podzielasz
-        mojej wiary, w s\u0142uszno\u015B\u0107 spraw wielkich takich jak ta, ufam,
-        \u017Ce ze wzgl\u0119du na nasz\u0105 przyja\u017A\u0144 przeka\u017Cesz,
-        nie pozwolisz, by moja ostatnia melodia mia\u0142a  zamilkn\u0105\u0107.\r\n"
+      value: "Z powa\u017Caniem do Ilyii Ivanovicha,\r\nRozpoczynaj\u0105c chcia\u0142bym
+        nakre\u015Bli\u0107, \u017Ce tematem rozmowy b\u0119dzie Twoje podej\u015Bcie
+        do sprawy. Nie chc\u0119 \u017Ceby kwestie pogl\u0105dowe zamaza\u0142y nasz
+        wsp\xF3lny wk\u0142ad jednak czuj\u0119, \u017Ce wykazujesz si\u0119 znieczuleniem
+        wobec sytuacji wyedukowanych osobisto\u015Bci i jest to co\u015B czego mimo
+        wielkiej mojej cierpliwo\u015Bci przebole\u0107 nie jestem zdolny. Zmagam
+        si\u0119 z sytuacj\u0105 bezsilno\u015Bci, w kt\xF3rej posp\xF3lstwo \u015Bmie
+        sprzeciwia\u0107 si\u0119 roli inteligencji w spo\u0142ecze\u0144stwie i
+        wyniku tego cofa wsp\xF3ln\u0105 inicjatyw\u0119 w g\u0142\u0119bokie czelu\u015Bci
+        przesz\u0142o\u015Bci zakryte reakcjonisytczn\u0105 my\u015Bl\u0105. Zastan\xF3w
+        si\u0119 dobrze co kryje przysz\u0142o\u015B\u0107, gdy zmieszasz j\u0105
+        z b\u0142\u0119dami przesz\u0142o\u015B\u0107. Bez ludzi, kt\xF3rzy s\u0105
+        zdolni spami\u0119ta\u0107 i zanalizowa\u0107 stare dziej\u0119 jeste\u015Bmy
+        skazani na powt\xF3rzenie wielkich kl\u0119sk i katastrof.\r\nW miar\u0119
+        jak zastanawiasz nad swymi pogl\u0105dami zerknij r\xF3wnie\u017C na ten
+        oto fragment symfonii, mo\u017Ce chocia\u017C ona przem\xF3wi do ciebie subtelno\u015Bci\u0105
+        my\u015Bli i pogl\u0105du.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: 11400000, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+      objectReference: {fileID: 25706228631402196, guid: ddc595d41a702ba4c82c23ef58b8ad58, type: 2}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1207354874}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Jew2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7613100147280426193, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8124941571124061349, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: sceneName
-      value: Pol2
+      value: Jew2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
---- !u!114 &2622929134147724632 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5430780970702318393, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-  m_PrefabInstance: {fileID: 8014303569333997153}
+--- !u!1 &1000706682251867217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7613100147280426195, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+  m_PrefabInstance: {fileID: 7224920951860019330}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1207354874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000706682251867217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3978648014995515368 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6345142963564358025, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-  m_PrefabInstance: {fileID: 8014303569333997153}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: dbe8239ab53a7804583900cf44f807dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

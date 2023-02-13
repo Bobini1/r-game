@@ -17,6 +17,7 @@ public class RhythmGame
     public Sprite overlayFivelineSprite;
     public AudioClip musicClip;
     public Sprite noteProgressBar;
+    public GameObject letterPrefab;
 
     public RhythmGame()
     {
@@ -31,6 +32,7 @@ public class RhythmGame
         noteProgressBar = Resources.Load<Sprite>("Sprites/noteProgressBar/" + name);
         overlayFivelineSprite = Resources.Load<Sprite>("Sprites/5line/" + name);
         musicClip = Resources.Load<AudioClip>("Audio/" + name);
+        letterPrefab = Resources.Load<GameObject>("Prefabs/" + name);
     }
 }
 

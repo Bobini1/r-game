@@ -1,45 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1043843732066272262
+--- !u!1001 &8014303569333997153
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: endY
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5416256433818279054, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: maxZoom
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: endY
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: speed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7364181890040121713, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
-      propertyPath: maxZoom
-      value: 1.2
-      objectReference: {fileID: 0}
+    - target: {fileID: 2553079448009872971, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 2622929134147724632}
+    - target: {fileID: 3476259219508925691, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 3978648014995515368}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Z powo\u0142ania dworu kr\xF3lewskiego Wilhelma Pierwszego, \r\npokorny
-        urz\u0119dnik Wilfred Hosenfeld"
+      value: 'Sed ut perspiciatis unde omnis.
+
+        Pole'
       objectReference: {fileID: 0}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
+      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100145731226524, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
+      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100146443364449, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -126,42 +115,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364451, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7613100146443364461, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_Name
-      value: Letter German
+      value: Letter Pole 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7613100146794647445, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8611bbed81702b746b5e0d444f3f7e39, type: 3}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_text
-      value: "Szanowny Panie Ivanovich\r\nWierz\u0119, \u017Ce sytuacj\u0119 Pana
-        rezydencji w terytoriach kr\xF3lestwa Prus niezw\u0142ocznie mi si\u0119
-        uda poprawi\u0107. W ko\u0144cu praworz\u0105dno\u015B\u0107 w rz\u0105dzie
-        pierwszorz\u0119dn\u0105 warto\u015Bci\u0105 a zapewnienie dobrobytu pierwszym
-        priorytetem. Zatem niech pan pozostanie na tych ziemiach i ciesz si\u0119
-        dostatkiem okolicy. Niech pochodzenie nie trawi Pana dobrobytu, wszak\u017Ce
-        wed\u0142ug zarz\u0105du sprytu, ka\u017Cda r\u0119k\u0105 do pracy si\u0119
-        przyda.\r\nCo do powod\xF3w twego przybycia, nie martw si\u0119 na nowej
-        drodze swego \u017Cycia, wszak\u017Ce\u015B teraz dla nas nie jest ju\u017C
-        Pan Rosjani n, ale \u017Ce\u015B pan praworz\u0105dny \u0141odzianin. Nie
-        wiem jak instytucje pochodzenia w tej sprawie post\u0105pi\u0105, aczkolwiek
-        mo\u017Cesz Pan za\u0142o\u017Cy\u0107, \u017Ce ust\u0105pi\u0105, a wi\u0119c
-        jest pan bezpieczny, od dzi\u015B zawsze pan tu mieszka\u0142. O dokumenty
-        prosz\u0119 si\u0119 nie martwi\u0107, w nast\u0119pnym li\u015Bcie prze\u015Bl\u0119
-        za\u0142\u0105cznik. \u017Bycz\u0119 spokoju i dobrobytu na nowej drodze
-        \u017Cycia.\r"
+      value: "Wilfredzie, \ncho\u0107 nie chcia\u0142bym, by sprawy polityczne mia\u0142y
+        por\xF3\u017Cni\u0107 nasz\u0105 wsp\xF3\u0142prac\u0119, je\u015Bli chodzi
+        o wsp\xF3lne harmonie i pie\u015Bni, ci\u0119\u017Cko jest mi zachowa\u0107
+        neutralno\u015B\u0107 w obliczu ostatnich wydarze\u0144, i nie przypisywa\u0107
+        Ci za nie winy. Nie zapomnia\u0142e\u015B raczej, jak ostatnimi miesi\u0105cami
+        wiele razy wytyka\u0142em Ci bierno\u015B\u0107, przyk\u0142adanie r\u0119ki
+        do proceder\xF3w ograniczaj\u0105cych wolno\u015B\u0107 wyrazu my\u015Bli
+        i przekona\u0144. Masz na r\u0119kach krew ludzi kt\xF3rym zosta\u0142 odebrany
+        ca\u0142y nar\xF3d, a teraz tak\u017Ce, zosta\u0142y odbierane ich prawa.
+        A wszystko to, przez bierno\u015B\u0107 i brak ludzkich skrupu\u0142\xF3w,
+        ludzi uprzywilejowanych, lepszych takich jak ty, kt\xF3rzy teraz maj\u0105
+        w\u0142adz\u0119 nad lud\u017Ami takimi jak ja.\r\n \r\nMieli\u015Bmy razem,
+        budowa\u0107 dobro tego miasta, a Ty ka\u017Cdego dnia wspierasz system kt\xF3ry
+        je niszczy. Przesy\u0142am Ci ten oto utw\xF3r, maj\u0105c nadziej\u0119,
+        \u017Ce pomimo Twojego ws\u0142uchasz si\u0119 w g\u0142osy ludu.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: e4be755a6436c654a98b28365844889a, type: 2}
+      objectReference: {fileID: 11400000, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
     - target: {fileID: 7613100147129912817, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: -8012969723372690638, guid: e4be755a6436c654a98b28365844889a, type: 2}
+      objectReference: {fileID: 1938090009700172813, guid: 668aea3c1ef2aff49a2310e9ff5d653b, type: 2}
+    - target: {fileID: 7613100147129912818, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 8124941571124061349, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
       propertyPath: sceneName
-      value: Pru1
+      value: Pol3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+--- !u!114 &2622929134147724632 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5430780970702318393, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+  m_PrefabInstance: {fileID: 8014303569333997153}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3978648014995515368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6345142963564358025, guid: bb7fdc8418e87634597e8df4bd973632, type: 3}
+  m_PrefabInstance: {fileID: 8014303569333997153}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -5,9 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneStateful : MonoBehaviour
 {
-    public string sceneName;
+    //public string sceneName;
+    public RhythmGame game;
+    public int songID;
+    private void Awake()
+    {
+
+
+    }
     public void LoadScene()
     {
-        SceneManager.LoadScene(sceneName);
+        game = DataBase.LetterList[songID];
+
+        Camera.main.GetComponent<ConfigureRhythmGame>().Configure(songID);
+
+        //SceneManager.LoadScene(sceneName);
     }
 }

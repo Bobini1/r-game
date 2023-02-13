@@ -977,6 +977,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2722344524950631916, guid: 47f0616f67cce7f4996e635a49ad0308, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dba0d25a4ee74774a9d17b85e44eb360, type: 3}
+    - target: {fileID: 4237873723969397346, guid: 47f0616f67cce7f4996e635a49ad0308, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47f0616f67cce7f4996e635a49ad0308, type: 3}
 --- !u!1001 &271526868
@@ -1561,6 +1569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rhythmGame: {fileID: 454512703}
+  navigationObject: {fileID: 1435881534}
   audioSource: {fileID: 1982567079}
   layout: {fileID: 2126668946}
   noteProgressBar: {fileID: 1948675900}
@@ -1573,6 +1582,7 @@ MonoBehaviour:
     overlayFivelineSprite: {fileID: 0}
     musicClip: {fileID: 0}
     noteProgressBar: {fileID: 0}
+    letterPrefab: {fileID: 0}
 --- !u!1001 &571550919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2883,7 +2893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode

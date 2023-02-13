@@ -17,8 +17,11 @@ public class SongManager : MonoBehaviour
     public new string name;
 
     public int inputDelayInMilliseconds;
-    
-    
+
+
+    public int songID;
+    public RhythmGame game;
+
 
     public string fileLocation;
     public float noteTime;
