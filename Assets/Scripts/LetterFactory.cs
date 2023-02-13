@@ -13,16 +13,13 @@ public class LetterFactory : MonoBehaviour
 
     public void CreateLetter(int i)
     {
-
         game = DataBase.LetterList[i];
         GameObject letter = Instantiate(game.letterPrefab);
         Camera.main.gameObject.GetComponent<ConfigureRhythmGame>().Configure(i);
-        letter.GetComponentInChildren<SongManager>().songID = i;
         deleteLetterOrQuit.letter = letter;
         foreach(var zoom in letter.GetComponentsInChildren<Zoom>())
         {
             zoom.cam = Camera.main;
         }
-
     }
 }

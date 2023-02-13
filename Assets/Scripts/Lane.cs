@@ -18,9 +18,6 @@ public class Lane : MonoBehaviour
     int spawnIndex;
     int inputIndex;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
         songManager = GameObject.Find("SongManager").GetComponent<SongManager>();
@@ -31,14 +28,12 @@ public class Lane : MonoBehaviour
         foreach (var note in array)
         {
             if (note.NoteName == noteRestriction)
-            {                                                                         //Song Manager restaticfied;;; due for potential rewrite
-
+            {      
                 var metricTimeSpan = TimeConverter.ConvertTo<MetricTimeSpan>(note.Time, SongManager.midiFile.GetTempoMap());
                 timeStamps.Add((double)metricTimeSpan.Minutes * 60f + metricTimeSpan.Seconds + (double)metricTimeSpan.Milliseconds / 1000f);
             }
         }
     }
-    // Update is called once per frame
     void Update()
     {
         AddNewNotes();
@@ -108,10 +103,10 @@ public class Lane : MonoBehaviour
                 }
             }
         }
-        //else   // get last time stamp
-        //{
-            //GameObject.Find("SongManager").GetComponent<ScoreManager>().maxTimeStamps.Add((float)timeStamps[spawnIndex-1]);
-        //}
+        /*else   // get last time stamp
+        {
+            GameObject.Find("SongManager").GetComponent<ScoreManager>().maxTimeStamps.Add((float)timeStamps[spawnIndex-1]);
+        }*/
     }
 
     private bool ShouldSpawnNote()

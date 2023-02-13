@@ -9,7 +9,7 @@ public class DeleteLetterOrQuit : MonoBehaviour
     private float initialCameraSize;
 
     private Vector3 initialCameraPosition;
-    // Start is called before the first frame update
+
     void Start()
     {
         var main = Camera.main;

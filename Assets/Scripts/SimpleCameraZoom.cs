@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEditor.SearchService;
 using UnityEngine;
 
 public class SimpleCameraZoom : MonoBehaviour
@@ -19,16 +18,9 @@ public class SimpleCameraZoom : MonoBehaviour
     public void StartZoom()
     {
         Debug.Log("started zoom");
-        //Camera.main.orthographicSize -= 4f;
         zoomCondition = true;
     }
 
-    IEnumerator Wait(float waitTime)
-    {
-        yield return new WaitForSeconds(waitTime);
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (zoomCondition && Camera.main.orthographicSize >= 0.3)

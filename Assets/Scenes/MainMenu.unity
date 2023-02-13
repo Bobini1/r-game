@@ -242,6 +242,14 @@ PrefabInstance:
       propertyPath: deleteLetterOrQuit
       value: 
       objectReference: {fileID: 97338894}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b138fa332148af9498a0935f809c986e, type: 3}
 --- !u!224 &44307726 stripped
@@ -1106,6 +1114,14 @@ PrefabInstance:
       propertyPath: deleteLetterOrQuit
       value: 
       objectReference: {fileID: 97338894}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b138fa332148af9498a0935f809c986e, type: 3}
 --- !u!224 &271526869 stripped
@@ -2636,6 +2652,14 @@ PrefabInstance:
       propertyPath: deleteLetterOrQuit
       value: 
       objectReference: {fileID: 97338894}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951934122106847998, guid: b138fa332148af9498a0935f809c986e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b138fa332148af9498a0935f809c986e, type: 3}
 --- !u!224 &1880317900 stripped

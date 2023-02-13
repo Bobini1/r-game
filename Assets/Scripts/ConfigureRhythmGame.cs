@@ -10,8 +10,6 @@ public class ConfigureRhythmGame : MonoBehaviour
     public SpriteRenderer layout;
     public SpriteRenderer noteProgressBar;
     public SongManager songManager;
-    public string midiLocation;
-
     public RhythmGame dataBaseRelay = new RhythmGame();
 
     public void Awake()
@@ -20,15 +18,8 @@ public class ConfigureRhythmGame : MonoBehaviour
         navigationObject.SetActive(true);
     }
 
-    public void Start()
-    {
-        
-    }
-
-
     public void Configure(int i)
-    {
-        
+    { 
         dataBaseRelay = DataBase.LetterList[i];
         audioSource.clip = dataBaseRelay.musicClip;
         layout.sprite = dataBaseRelay.layoutSprite;
@@ -36,8 +27,7 @@ public class ConfigureRhythmGame : MonoBehaviour
         rhythmGame.SetActive(true);
         navigationObject.SetActive(false);
         Destroy(GameObject.FindGameObjectWithTag("PreLoadList"));
-        //noteProgressBar = dataBaseRelay.noteProgressBar     enable once progress bars are int the catalogue!!! ~ dejwi
+        //noteProgressBar = dataBaseRelay.noteProgressBar     enable once progress bars are in the catalogue!!! ~ dejwi
         songManager.fileLocation = dataBaseRelay.name + ".mid";
-
     }
 }

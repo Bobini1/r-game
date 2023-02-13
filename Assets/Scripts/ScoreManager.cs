@@ -9,14 +9,14 @@ public class ScoreManager : MonoBehaviour
     public TMPro.TextMeshPro scoreText;
     public TMPro.TextMeshPro comboPoints;
     int comboScore;
-    int maxScore;
+    int maxScore; // to implement
     int combo;
     int failCounter = 0;
+    public int maxFails = 200;
     public List<float> maxTimeStamps = new();
 
 
     public GameObject progressBar;
-    //float progressBarValue;
     float progressBarMaxValue;
 
     public float speedAdjuster;
@@ -31,7 +31,6 @@ public class ScoreManager : MonoBehaviour
     {
         combo = 0;
         comboScore = 0;
-        //progressBarValue = 0;
         if(songManager != null)
         {
             progressBarMaxValue = songManager.GetSongNotes();
@@ -50,10 +49,8 @@ public class ScoreManager : MonoBehaviour
         failCounter++;
         //replace 5 with variable containing track specific max consecutive fails
         //this has to be done here in order to preserve the actual combo, max scores
-        if (failCounter >= 200)
-        {
-            
-            Debug.Log("done");
+        if (failCounter >= maxFails)
+        {            
             if(songManager != null)
             {
                 if(songManager.resultScreenShown == false)
@@ -74,8 +71,6 @@ public class ScoreManager : MonoBehaviour
         comboPoints.text = ("+" + combo.ToString());
         //set me
 
-        //float speed = GameObject.Find("SongManager").GetComponent<SongManager>().GetSongNotes() / MaxTimeStamp();
-        //audioSource.GetComponent<AudioClip>().length();
         //max X -17.8 - Final X 0
         float Xprop = (17.8f / audioSource.clip.length);
         speedAdjuster = Mathf.Abs(Xprop);
